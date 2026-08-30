@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-81WMV1Z2BZ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-81WMV1Z2BZ');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -356,7 +365,7 @@
 
         .trust-item i { color: var(--magenta); font-size: 1rem; }
 
-        /* Infinite Brands Marquee (All Brands in One Place) */
+        /* Infinite Brands Marquee */
         .brands-section {
             background: #ffffff;
             border-bottom: 1px solid var(--border);
@@ -451,7 +460,7 @@
             transition: transform 0.25s ease;
         }
 
-        /* Specific Brand Color Styling */
+        /* Specific Brand Colors */
         .color-apple { color: #000000; }
         .color-jbl { color: #ff3300; font-family: 'Arial Black', sans-serif; letter-spacing: -0.5px; }
         .color-boat { color: #e11d48; font-family: 'Arial Black', sans-serif; }
@@ -850,10 +859,10 @@
             </div>
 
             <div class="nav-actions">
-                <a class="icon-link" href="https://instagram.com/galaxycomputers.official" target="_blank" rel="noopener" aria-label="Galaxy Computers on Instagram">
+                <a class="icon-link" href="https://instagram.com/galaxycomputers.official" target="_blank" rel="noopener" aria-label="Galaxy Computers on Instagram" onclick="gtag('event', 'click_instagram', {'event_category': 'Social'});">
                     <i class="fa-brands fa-instagram"></i>
                 </a>
-                <a class="btn btn-primary" href="tel:+919288104909">
+                <a class="btn btn-primary" href="tel:+919288104909" onclick="gtag('event', 'click_call', {'event_category': 'Lead', 'event_label': 'Header Nav Call'});">
                     <i class="fa-solid fa-phone"></i> Call Now
                 </a>
             </div>
@@ -862,7 +871,6 @@
 
     <main id="home">
 
-        <!-- Hero Section -->
         <section class="hero">
             <div class="hero-inner">
                 <div>
@@ -878,7 +886,7 @@
                     </p>
 
                     <div class="hero-buttons">
-                        <a class="btn btn-whatsapp" href="https://wa.me/919288104909?text=Hello%20Galaxy%20Computers%2C%20I%20have%20an%20enquiry" target="_blank" rel="noopener">
+                        <a class="btn btn-whatsapp" href="https://wa.me/919288104909?text=Hello%20Galaxy%20Computers%2C%20I%20have%20an%20enquiry" target="_blank" rel="noopener" onclick="gtag('event', 'click_whatsapp', {'event_category': 'Lead', 'event_label': 'Hero WhatsApp'});">
                             <i class="fa-brands fa-whatsapp"></i> WhatsApp Us
                         </a>
                         <a class="btn btn-light" href="#products">
@@ -891,7 +899,6 @@
                     </div>
                 </div>
 
-                <!-- 6-Part "What are you looking for?" Hero Hub with Electronic Accessories Included -->
                 <div class="hero-panel">
                     <div class="hero-panel-top">
                         <h3>What are you looking for?</h3>
@@ -951,7 +958,6 @@
             </div>
         </section>
 
-        <!-- Trust Strip -->
         <div class="trust-strip">
             <div class="trust-grid">
                 <div class="trust-item"><i class="fa-solid fa-shield-halved"></i> 100% Genuine Products</div>
@@ -961,11 +967,9 @@
             </div>
         </div>
 
-        <!-- Unified Infinite Multi-Brand Auto-Slider (Including Audio & Headphone Brands) -->
         <div class="brands-section">
             <div class="brands-title">We Supply, Install & Service Leading Technology Brands</div>
             <div class="brands-slider">
-                <!-- Track 1 -->
                 <div class="brand-track">
                     <div class="brand-item" title="JBL"><span class="brand-badge-text color-jbl">JBL</span></div>
                     <div class="brand-item" title="boAt"><span class="brand-badge-text color-boat">boAt</span></div>
@@ -993,7 +997,6 @@
                     <div class="brand-item" title="Cisco"><span class="brand-badge-text color-cisco">CISCO</span></div>
                 </div>
 
-                <!-- Track 2 (Duplicate for Seamless Loop) -->
                 <div class="brand-track" aria-hidden="true">
                     <div class="brand-item" title="JBL"><span class="brand-badge-text color-jbl">JBL</span></div>
                     <div class="brand-item" title="boAt"><span class="brand-badge-text color-boat">boAt</span></div>
@@ -1023,52 +1026,45 @@
             </div>
         </div>
 
-        <!-- 6 Core Products Grid -->
         <section id="products">
             <div class="container">
                 <div class="section-heading">
                     <div class="label">Showroom Offerings</div>
                     <h2>Everything You Need Under One Roof</h2>
-                    <p>Complete technology range for personal computing, premium audio, home entertainment, and network security.</p>
+                    <p>Complete technology range for personal computing, premium audio, smart home entertainment, and commercial infrastructure.</p>
                 </div>
 
                 <div class="cards-6">
-                    <!-- 1. Laptops & Desktops -->
                     <article class="card">
                         <div class="card-icon"><i class="fa-solid fa-laptop"></i></div>
                         <h3>Laptops & Desktops</h3>
                         <p>HP, Dell, Lenovo, ASUS & Apple MacBook. Student notebooks, business workstations, and custom liquid-cooled gaming PCs.</p>
                     </article>
 
-                    <!-- 2. Smartphones & Tablets -->
                     <article class="card">
                         <div class="card-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
                         <h3>Smartphones & Tablets</h3>
                         <p>Latest 5G smartphones from Nothing, OnePlus, Samsung, Vivo & Realme with fast chargers, wireless audio, and protection.</p>
                     </article>
 
-                    <!-- 3. Electronic & Audio Accessories -->
                     <article class="card">
                         <div class="card-icon"><i class="fa-solid fa-headphones"></i></div>
                         <h3>Electronic & Audio Gear</h3>
                         <p>Premium wireless headphones & TWS earbuds from JBL, boAt, Bose, Sony, Sennheiser, mechanical keyboards, mice & power banks.</p>
                     </article>
 
-                    <!-- 4. CCTV Surveillance & Security -->
                     <article class="card">
                         <div class="card-icon"><i class="fa-solid fa-video"></i></div>
                         <h3>CCTV Surveillance & Security</h3>
                         <p>CP PLUS & Hikvision HD/IP camera installation, DVR/NVR multi-channel setups, color night-vision & smartphone live monitoring.</p>
                     </article>
 
-                    <!-- 5. Smart 4K LED TVs -->
                     <article class="card">
                         <div class="card-icon"><i class="fa-solid fa-tv"></i></div>
                         <h3>Smart 4K LED TVs</h3>
                         <p>Sony Bravia, Samsung, LG, Hisense & Mi Smart TVs (32" to 65") with precision wall mounting, soundbar integration & app setups.</p>
                     </article>
 
-                    <!-- 6. Structured Networking & Wi-Fi -->
                     <article class="card">
                         <div class="card-icon"><i class="fa-solid fa-network-wired"></i></div>
                         <h3>Structured Networking & Wi-Fi</h3>
@@ -1078,7 +1074,6 @@
             </div>
         </section>
 
-        <!-- Detailed Services Section -->
         <section id="services">
             <div class="container">
                 <div class="section-heading">
@@ -1104,7 +1099,7 @@
                         </div>
 
                         <br />
-                        <a class="btn btn-whatsapp" href="https://wa.me/919288104909?text=Hello%20Galaxy%20Computers%2C%20I%20need%20networking%20or%20CCTV%20setup%20enquiry" target="_blank" rel="noopener">
+                        <a class="btn btn-whatsapp" href="https://wa.me/919288104909?text=Hello%20Galaxy%20Computers%2C%20I%20need%20networking%20or%20CCTV%20setup%20enquiry" target="_blank" rel="noopener" onclick="gtag('event', 'click_whatsapp', {'event_category': 'Lead', 'event_label': 'Services Section WhatsApp'});">
                             <i class="fa-brands fa-whatsapp"></i> Enquire About Networking / CCTV
                         </a>
                     </div>
@@ -1150,7 +1145,6 @@
             </div>
         </section>
 
-        <!-- Showroom Photo Placeholder -->
         <section>
             <div class="container">
                 <div class="gallery-placeholder">
@@ -1165,7 +1159,6 @@
             </div>
         </section>
 
-        <!-- Why Choose Us -->
         <section id="why-us">
             <div class="container">
                 <div class="section-heading">
@@ -1214,7 +1207,6 @@
             </div>
         </section>
 
-        <!-- WhatsApp Callout -->
         <section>
             <div class="container" style="padding-top:0;">
                 <div class="cta">
@@ -1223,10 +1215,10 @@
                         <p>Send your requirements for Laptops, Mobiles, Audio Gear, CCTV, TVs, or Networking on WhatsApp for instant pricing.</p>
                     </div>
                     <div class="cta-actions">
-                        <a class="btn btn-whatsapp" href="https://wa.me/919288104909?text=Hello%20Galaxy%20Computers%2C%20I%20need%20a%20quote%20for%20products%2Fnetworking" target="_blank" rel="noopener">
+                        <a class="btn btn-whatsapp" href="https://wa.me/919288104909?text=Hello%20Galaxy%20Computers%2C%20I%20need%20a%20quote%20for%20products%2Fnetworking" target="_blank" rel="noopener" onclick="gtag('event', 'click_whatsapp', {'event_category': 'Lead', 'event_label': 'CTA Banner WhatsApp'});">
                             <i class="fa-brands fa-whatsapp"></i> Get WhatsApp Quote
                         </a>
-                        <a class="btn btn-primary" href="tel:+919288104909">
+                        <a class="btn btn-primary" href="tel:+919288104909" onclick="gtag('event', 'click_call', {'event_category': 'Lead', 'event_label': 'CTA Banner Call'});">
                             <i class="fa-solid fa-phone"></i> 9288104909
                         </a>
                     </div>
@@ -1234,7 +1226,6 @@
             </div>
         </section>
 
-        <!-- Contact Section -->
         <section id="contact">
             <div class="container">
                 <div class="section-heading">
@@ -1267,7 +1258,7 @@
                             <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
                             <div>
                                 <strong>Call Us</strong>
-                                <a href="tel:+919288104909">+91 92881 04909</a>
+                                <a href="tel:+919288104909" onclick="gtag('event', 'click_call', {'event_category': 'Lead', 'event_label': 'Contact Card Phone'});">+91 92881 04909</a>
                             </div>
                         </div>
 
@@ -1275,7 +1266,7 @@
                             <div class="contact-icon"><i class="fa-brands fa-instagram"></i></div>
                             <div>
                                 <strong>Instagram</strong>
-                                <a href="https://instagram.com/galaxycomputers.official" target="_blank" rel="noopener">@galaxycomputers.official</a>
+                                <a href="https://instagram.com/galaxycomputers.official" target="_blank" rel="noopener" onclick="gtag('event', 'click_instagram', {'event_category': 'Social'});">@galaxycomputers.official</a>
                             </div>
                         </div>
                     </div>
@@ -1285,7 +1276,7 @@
                             <i class="fa-solid fa-map-location-dot"></i>
                             <h3>Find Our Showroom</h3>
                             <p>Fida Hussain Road, Jehanabad, Bihar - 804408</p>
-                            <a class="btn btn-light" href="https://maps.app.goo.gl/hRYHatyfkNCaEJ8A7" target="_blank" rel="noopener">
+                            <a class="btn btn-light" href="https://maps.google.com" target="_blank" rel="noopener" onclick="gtag('event', 'click_maps', {'event_category': 'Location'});">
                                 <i class="fa-solid fa-location-arrow"></i> Open Location in Google Maps
                             </a>
                         </div>
@@ -1296,24 +1287,22 @@
 
     </main>
 
-    <!-- Mobile Sticky CTA Bar -->
     <div class="mobile-bar">
-        <a class="mobile-call" href="tel:+919288104909">
+        <a class="mobile-call" href="tel:+919288104909" onclick="gtag('event', 'click_call', {'event_category': 'Lead', 'event_label': 'Mobile Sticky Call'});">
             <i class="fa-solid fa-phone"></i> Call Now
         </a>
-        <a class="mobile-wa" href="https://wa.me/919288104909?text=Hello%20Galaxy%20Computers%2C%20I%20have%20an%20enquiry" target="_blank" rel="noopener">
+        <a class="mobile-wa" href="https://wa.me/919288104909?text=Hello%20Galaxy%20Computers%2C%20I%20have%20an%20enquiry" target="_blank" rel="noopener" onclick="gtag('event', 'click_whatsapp', {'event_category': 'Lead', 'event_label': 'Mobile Sticky WhatsApp'});">
             <i class="fa-brands fa-whatsapp"></i> WhatsApp
         </a>
     </div>
 
-    <!-- Footer -->
     <footer>
         <div class="footer-inner">
             <div>
                 <div class="footer-brand">Galaxy Computers</div>
                 <p>Multi-brand Laptops, Mobiles, Audio Gear, CCTV Surveillance, Smart TVs & Office Networking in Jehanabad.</p>
             </div>
-            <p>&copy; 2026 Galaxy Computers. All Rights Reserved.</p>
+            <p>© 2026 Galaxy Computers. All Rights Reserved.</p>
         </div>
     </footer>
 
