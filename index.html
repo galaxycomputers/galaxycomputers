@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Galaxy Computers | Laptops, Smart TVs, Mobiles & CCTV in Jehanabad</title>
-    <meta name="description" content="Galaxy Computers is a multi-brand tech showroom in Jehanabad, Bihar offering laptops, desktops, smart TVs, mobile phones, CCTV security, accessories and repair services.">
-    <meta name="keywords" content="computer shop Jehanabad, laptop shop Jehanabad, mobile shop Jehanabad, smart TV Jehanabad, computer repair Jehanabad, CCTV shop Jehanabad, Galaxy Computers">
+    <title>Galaxy Computers | Laptops, Mobiles, CCTV, TVs & Networking in Jehanabad</title>
+    <meta name="description" content="Galaxy Computers is a multi-brand tech showroom in Jehanabad. We supply, install, and service leading national and international technology brands.">
+    <meta name="keywords" content="computer shop Jehanabad, laptop shop Jehanabad, mobile shop Jehanabad, CCTV shop Jehanabad, Smart TV Jehanabad, networking services Jehanabad, Galaxy Computers">
     <meta name="author" content="Galaxy Computers">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#4a0e4e">
     <link rel="canonical" href="https://galaxycomputers.github.io/">
 
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Galaxy Computers | IT, Mobiles & Electronics Showroom">
-    <meta property="og:description" content="Laptops, Smart TVs, Smartphones, CCTV, Accessories & Repair in Jehanabad.">
+    <meta property="og:title" content="Galaxy Computers | IT, Mobiles, Security & Networking Showroom">
+    <meta property="og:description" content="We supply, install, and service leading national and international technology brands in Jehanabad.">
     <meta property="og:url" content="https://galaxycomputers.github.io/">
     <meta property="og:image" content="assets/logo.png">
 
@@ -203,11 +203,11 @@
             z-index: 1;
             max-width: var(--max);
             margin: auto;
-            padding: 78px 20px 72px;
+            padding: 70px 20px 65px;
             display: grid;
-            grid-template-columns: 1.1fr .9fr;
+            grid-template-columns: 1.05fr 0.95fr;
             align-items: center;
-            gap: 55px;
+            gap: 45px;
         }
 
         .eyebrow {
@@ -228,10 +228,10 @@
 
         .hero h1 {
             max-width: 730px;
-            font-size: clamp(2.35rem, 5vw, 4rem);
+            font-size: clamp(2.35rem, 5vw, 3.8rem);
             line-height: 1.08;
             letter-spacing: -1.8px;
-            margin-bottom: 20px;
+            margin-bottom: 18px;
         }
 
         .hero h1 em {
@@ -245,8 +245,8 @@
         .hero p {
             max-width: 690px;
             color: #ddd3e1;
-            font-size: 1.06rem;
-            margin-bottom: 28px;
+            font-size: 1.05rem;
+            margin-bottom: 24px;
         }
 
         .hero-buttons {
@@ -256,16 +256,17 @@
         }
 
         .hero-note {
-            margin-top: 19px;
+            margin-top: 18px;
             color: #cbbdcc;
             font-size: .8rem;
         }
 
+        /* 6-Grid Panel for "What are you looking for?" */
         .hero-panel {
             background: rgba(255,255,255,.075);
             border: 1px solid rgba(255,255,255,.14);
             border-radius: 25px;
-            padding: 25px;
+            padding: 22px;
             box-shadow: 0 25px 70px rgba(0,0,0,.25);
             backdrop-filter: blur(12px);
         }
@@ -275,41 +276,57 @@
             align-items: center;
             justify-content: space-between;
             gap: 15px;
-            margin-bottom: 18px;
+            margin-bottom: 14px;
         }
 
-        .hero-panel h3 { font-size: 1.05rem; }
+        .hero-panel h3 { font-size: 1.05rem; font-weight: 800; }
 
         .open-pill {
             font-size: .68rem;
             font-weight: 800;
-            padding: 6px 9px;
+            padding: 5px 10px;
             border-radius: 999px;
-            background: rgba(37,211,102,.13);
+            background: rgba(37,211,102,.15);
             color: #86efac;
-            border: 1px solid rgba(134,239,172,.2);
+            border: 1px solid rgba(134,239,172,.25);
         }
 
-        .hero-service {
+        .hero-service-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+
+        .hero-service-item {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 14px;
+            padding: 10px 12px;
             display: flex;
             align-items: center;
-            gap: 14px;
-            padding: 12px 0;
-            border-top: 1px solid rgba(255,255,255,.10);
+            gap: 11px;
+            transition: 0.2s;
         }
 
-        .hero-service i {
-            width: 38px;
-            height: 38px;
+        .hero-service-item:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(236,72,153, 0.4);
+        }
+
+        .hero-service-item i {
+            width: 34px;
+            height: 34px;
             display: grid;
             place-items: center;
-            border-radius: 11px;
-            background: rgba(236,72,153,.14);
+            border-radius: 9px;
+            background: rgba(236,72,153,.15);
             color: #f9a8d4;
+            font-size: 0.95rem;
+            flex-shrink: 0;
         }
 
-        .hero-service strong { display: block; font-size: .88rem; }
-        .hero-service small { color: #bfb2c3; font-size: .75rem; }
+        .hero-service-item strong { display: block; font-size: .84rem; line-height: 1.2; }
+        .hero-service-item small { color: #bfb2c3; font-size: .72rem; }
 
         /* Trust Strip */
         .trust-strip {
@@ -383,7 +400,7 @@
         .brands-slider {
             display: flex;
             width: max-content;
-            animation: scrollBrands 34s linear infinite;
+            animation: scrollBrands 36s linear infinite;
         }
 
         .brands-slider:hover { animation-play-state: paused; }
@@ -427,14 +444,14 @@
         }
 
         .brand-item .brand-badge-text {
-            font-size: 1.4rem;
+            font-size: 1.35rem;
             font-weight: 900;
             letter-spacing: -0.5px;
             white-space: nowrap;
             transition: transform 0.25s ease;
         }
 
-        /* Specific Brand Color Styling */
+        /* Specific Brand Colors */
         .color-apple { color: #000000; }
         .color-sony { color: #000000; font-family: 'Arial Black', sans-serif; letter-spacing: 1px; }
         .color-lg { color: #a50034; }
@@ -444,7 +461,9 @@
         .color-realme { color: #ffc915; font-family: 'Arial Black', sans-serif; }
         .color-nothing { color: #000000; font-family: 'Courier New', monospace; font-weight: 800; letter-spacing: 2px; }
         .color-hisense { color: #009b9e; font-family: 'Arial Black', sans-serif; letter-spacing: 0.5px; }
-        .color-motorola { color: #001489; }
+        .color-dlink { color: #007bb6; font-family: 'Arial Black', sans-serif; }
+        .color-netgear { color: #43297a; font-family: 'Arial Black', sans-serif; }
+        .color-cisco { color: #1ba0d7; font-family: 'Arial Black', sans-serif; }
         .color-cpplus { color: #e11d48; }
         .color-hikvision { color: #dc2626; }
         .color-canon { color: #cc0000; font-family: 'Arial Black', sans-serif; }
@@ -532,57 +551,10 @@
             line-height: 1.6;
         }
 
-        /* Dark Product Showcase */
-        .dark-section {
-            background: linear-gradient(135deg, #16041c, #3b0764);
-            color: #fff;
-        }
-
-        .dark-section .section-heading h2 { color: #fff; }
-        .dark-section .section-heading p { color: #d5c9da; }
-
-        .product-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 18px;
-        }
-
-        .product {
-            border: 1px solid rgba(255,255,255,.11);
-            background: rgba(255,255,255,.06);
-            border-radius: 18px;
-            padding: 24px;
-        }
-
-        .product i {
-            color: #f472b6;
-            font-size: 1.4rem;
-            margin-bottom: 14px;
-        }
-
-        .product h3 { margin-bottom: 7px; font-size: 1.05rem; }
-        .product p { color: #d2c6d7; font-size: .82rem; margin-bottom: 15px; }
-
-        .chips {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 6px;
-        }
-
-        .chip {
-            padding: 4px 8px;
-            border-radius: 999px;
-            background: rgba(255,255,255,.08);
-            color: #eadfea;
-            border: 1px solid rgba(255,255,255,.10);
-            font-size: .68rem;
-            font-weight: 700;
-        }
-
         /* Services Layout */
         .service-layout {
             display: grid;
-            grid-template-columns: .9fr 1.1fr;
+            grid-template-columns: .95fr 1.05fr;
             gap: 25px;
             align-items: stretch;
         }
@@ -771,7 +743,6 @@
             .hero-inner { grid-template-columns: 1fr; }
             .hero-panel { max-width: 600px; }
             .cards-6 { grid-template-columns: 1fr 1fr; }
-            .product-grid { grid-template-columns: 1fr 1fr; }
             .service-layout { grid-template-columns: 1fr; }
         }
 
@@ -786,7 +757,8 @@
             .hero-inner { padding: 58px 18px 55px; gap: 35px; }
             .hero h1 { font-size: 2.25rem; letter-spacing: -1px; }
             .hero p { font-size: .92rem; }
-            .hero-panel { padding: 20px; }
+            .hero-panel { padding: 18px; }
+            .hero-service-grid { grid-template-columns: 1fr; }
             .trust-grid { grid-template-columns: 1fr 1fr; padding: 15px 14px; }
             .trust-item { font-size: .7rem; }
             .brand-track { gap: 28px; }
@@ -795,7 +767,7 @@
             .brand-item .brand-badge-text { font-size: 1.1rem; }
             .container { padding: 58px 16px; }
             .section-heading { margin-bottom: 30px; }
-            .cards-6, .product-grid, .why-grid, .contact { grid-template-columns: 1fr; }
+            .cards-6, .why-grid, .contact { grid-template-columns: 1fr; }
             .service-list { grid-template-columns: 1fr 1fr; }
             .cta { padding: 27px 22px; display: block; }
             .cta-actions { margin-top: 18px; }
@@ -854,13 +826,13 @@
 <body>
 
     <div class="top-bar">
-        ⚡ GRAND OPENING SOON IN JEHANABAD — EXCLUSIVE INAUGURAL OFFERS ON LAPTOPS, TVS & MOBILES!
+        ⚡ GRAND OPENING SOON IN JEHANABAD — EXCLUSIVE OFFERS ON LAPTOPS, MOBILES, TVS & NETWORKING!
     </div>
 
     <header>
         <nav class="nav" aria-label="Main navigation">
             <a class="brand" href="#home" aria-label="Galaxy Computers home">
-                <img src="assets/logo.png" alt="Galaxy Computers logo">
+                <img src="assets/logo.png" alt="Galaxy Computers logo" />
                 <div class="brand-name">
                     Galaxy Computers
                     <span>A Multi-Brand Showroom</span>
@@ -887,6 +859,7 @@
 
     <main id="home">
 
+        <!-- Hero Section -->
         <section class="hero">
             <div class="hero-inner">
                 <div>
@@ -894,11 +867,11 @@
                         <i class="fa-solid fa-bolt"></i> Coming Soon to Jehanabad
                     </div>
 
-                    <h1>Your <em>All-in-One</em> IT, Mobile & TV Showroom</h1>
+                    <h1>Your <em>All-in-One</em> IT, Mobile, TV & Security Showroom</h1>
 
                     <p>
-                        Laptops, Smart TVs, Smartphones, CCTV surveillance, PC components,
-                        accessories, and certified repair services — all under one roof on Fida Hussain Road.
+                        We supply, install, and service leading national and international technology brands — 
+                        delivering certified hardware, smart entertainment, and high-speed network infrastructure to Jehanabad.
                     </p>
 
                     <div class="hero-buttons">
@@ -906,294 +879,260 @@
                             <i class="fa-brands fa-whatsapp"></i> WhatsApp Us
                         </a>
                         <a class="btn btn-light" href="#products">
-                            <i class="fa-solid fa-arrow-down"></i> Explore Products
+                            <i class="fa-solid fa-arrow-down"></i> Explore Showroom
                         </a>
                     </div>
 
                     <div class="hero-note">
-                        Genuine Multi-Brand Products • Brand Warranty Support • Local After-Sales Service
+                        100% Genuine Multi-Brand Warranty • Fast Diagnostics • Local After-Sales Support
                     </div>
                 </div>
 
+                <!-- High-Impact 6-Part "What are you looking for?" Hub -->
                 <div class="hero-panel">
                     <div class="hero-panel-top">
                         <h3>What are you looking for?</h3>
                         <span class="open-pill">OPENING SOON</span>
                     </div>
 
-                    <div class="hero-service">
-                        <i class="fa-solid fa-laptop"></i>
-                        <div>
-                            <strong>Laptops & Desktops</strong>
-                            <small>HP, Dell, Lenovo, ASUS & Custom PCs</small>
+                    <div class="hero-service-grid">
+                        <div class="hero-service-item">
+                            <i class="fa-solid fa-laptop"></i>
+                            <div>
+                                <strong>Laptops & Desktops</strong>
+                                <small>Workstations, Gaming & Productivity</small>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="hero-service">
-                        <i class="fa-solid fa-tv"></i>
-                        <div>
-                            <strong>Smart 4K LED TVs</strong>
-                            <small>Sony, Samsung, LG, Hisense & Mi</small>
+                        <div class="hero-service-item">
+                            <i class="fa-solid fa-mobile-screen"></i>
+                            <div>
+                                <strong>Smartphones & Tablets</strong>
+                                <small>Next-Gen 5G & Smart Accessories</small>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="hero-service">
-                        <i class="fa-solid fa-mobile-screen"></i>
-                        <div>
-                            <strong>Mobiles & Accessories</strong>
-                            <small>Nothing, OnePlus, Vivo, Realme, Samsung</small>
+                        <div class="hero-service-item">
+                            <i class="fa-solid fa-video"></i>
+                            <div>
+                                <strong>CCTV Surveillance</strong>
+                                <small>HD Security & Mobile Remote View</small>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="hero-service">
-                        <i class="fa-solid fa-video"></i>
-                        <div>
-                            <strong>CCTV Security Setup</strong>
-                            <small>HD/IP cameras & mobile view configuration</small>
+                        <div class="hero-service-item">
+                            <i class="fa-solid fa-tv"></i>
+                            <div>
+                                <strong>Smart 4K LED TVs</strong>
+                                <small>Ultra-HD Cinema & Wall Mount Setup</small>
+                            </div>
+                        </div>
+
+                        <div class="hero-service-item">
+                            <i class="fa-solid fa-network-wired"></i>
+                            <div>
+                                <strong>Structured Networking</strong>
+                                <small>High-Speed Fiber, LAN & Mesh Wi-Fi</small>
+                            </div>
+                        </div>
+
+                        <div class="hero-service-item">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                            <div>
+                                <strong>Express Repairs</strong>
+                                <small>Certified Chip-Level & Screen Fix</small>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- Trust Strip -->
         <div class="trust-strip">
             <div class="trust-grid">
                 <div class="trust-item"><i class="fa-solid fa-shield-halved"></i> 100% Genuine Products</div>
-                <div class="trust-item"><i class="fa-solid fa-tv"></i> Smart TV Installation</div>
-                <div class="trust-item"><i class="fa-solid fa-video"></i> CCTV Surveillance</div>
+                <div class="trust-item"><i class="fa-solid fa-network-wired"></i> Structured Office LAN Setup</div>
+                <div class="trust-item"><i class="fa-solid fa-video"></i> CCTV Camera Deployment</div>
                 <div class="trust-item"><i class="fa-solid fa-screwdriver-wrench"></i> Expert Technical Repair</div>
             </div>
         </div>
 
-        <!-- Full-Color Multi-Brand Infinite Slider -->
+        <!-- Unified Infinite Multi-Brand Auto-Slider -->
         <div class="brands-section">
-            <div class="brands-title">Authorized IT, Mobile & TV Brands We Deal In</div>
+            <div class="brands-title">We Supply, Install & Service Leading Technology Brands</div>
             <div class="brands-slider">
                 <!-- Track 1 -->
                 <div class="brand-track">
-                    <div class="brand-item" title="Samsung"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/samsung.svg" alt="Samsung" style="filter: invert(18%) sepia(86%) saturate(3364%) hue-rotate(212deg) brightness(88%) contrast(101%);"></div>
+                    <div class="brand-item" title="Apple"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/apple.svg" alt="Apple" /></div>
+                    <div class="brand-item" title="Samsung"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/samsung.svg" alt="Samsung" style="filter: invert(18%) sepia(86%) saturate(3364%) hue-rotate(212deg) brightness(88%) contrast(101%);" /></div>
                     <div class="brand-item" title="Sony"><span class="brand-badge-text color-sony">SONY</span></div>
-                    <div class="brand-item" title="LG"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/lg.svg" alt="LG" style="filter: invert(14%) sepia(83%) saturate(5412%) hue-rotate(336deg) brightness(88%) contrast(105%);"></div>
-                    <div class="brand-item" title="Apple"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/apple.svg" alt="Apple"></div>
+                    <div class="brand-item" title="LG"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/lg.svg" alt="LG" style="filter: invert(14%) sepia(83%) saturate(5412%) hue-rotate(336deg) brightness(88%) contrast(105%);" /></div>
                     <div class="brand-item" title="Nothing"><span class="brand-badge-text color-nothing">NOTHING</span></div>
                     <div class="brand-item" title="Hisense"><span class="brand-badge-text color-hisense">Hisense</span></div>
-                    <div class="brand-item" title="OnePlus"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/oneplus.svg" alt="OnePlus" style="filter: invert(12%) sepia(97%) saturate(7404%) hue-rotate(357deg) brightness(98%) contrast(107%);"></div>
-                    <div class="brand-item" title="Xiaomi"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/xiaomi.svg" alt="Xiaomi" style="filter: invert(53%) sepia(93%) saturate(2250%) hue-rotate(360deg) brightness(101%) contrast(105%);"></div>
+                    <div class="brand-item" title="OnePlus"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/oneplus.svg" alt="OnePlus" style="filter: invert(12%) sepia(97%) saturate(7404%) hue-rotate(357deg) brightness(98%) contrast(107%);" /></div>
                     <div class="brand-item" title="Vivo"><span class="brand-badge-text color-vivo">vivo</span></div>
                     <div class="brand-item" title="Realme"><span class="brand-badge-text color-realme">realme</span></div>
-                    <div class="brand-item" title="HP"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/hp.svg" alt="HP" style="filter: invert(18%) sepia(87%) saturate(3025%) hue-rotate(185deg) brightness(92%) contrast(101%);"></div>
-                    <div class="brand-item" title="Dell"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/dell.svg" alt="Dell" style="filter: invert(24%) sepia(95%) saturate(2361%) hue-rotate(187deg) brightness(91%) contrast(101%);"></div>
-                    <div class="brand-item brand-wide" title="Lenovo"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/lenovo.svg" alt="Lenovo" style="filter: invert(16%) sepia(94%) saturate(6011%) hue-rotate(352deg) brightness(91%) contrast(98%);"></div>
-                    <div class="brand-item brand-wide" title="ASUS"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/asus.svg" alt="ASUS" style="filter: invert(18%) sepia(92%) saturate(2250%) hue-rotate(205deg) brightness(92%) contrast(102%);"></div>
+                    <div class="brand-item" title="Xiaomi"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/xiaomi.svg" alt="Xiaomi" style="filter: invert(53%) sepia(93%) saturate(2250%) hue-rotate(360deg) brightness(101%) contrast(105%);" /></div>
+                    <div class="brand-item" title="HP"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/hp.svg" alt="HP" style="filter: invert(18%) sepia(87%) saturate(3025%) hue-rotate(185deg) brightness(92%) contrast(101%);" /></div>
+                    <div class="brand-item" title="Dell"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/dell.svg" alt="Dell" style="filter: invert(24%) sepia(95%) saturate(2361%) hue-rotate(187deg) brightness(91%) contrast(101%);" /></div>
+                    <div class="brand-item brand-wide" title="Lenovo"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/lenovo.svg" alt="Lenovo" style="filter: invert(16%) sepia(94%) saturate(6011%) hue-rotate(352deg) brightness(91%) contrast(98%);" /></div>
+                    <div class="brand-item brand-wide" title="ASUS"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/asus.svg" alt="ASUS" style="filter: invert(18%) sepia(92%) saturate(2250%) hue-rotate(205deg) brightness(92%) contrast(102%);" /></div>
                     <div class="brand-item" title="CP PLUS"><span class="brand-badge-text color-cpplus">CP PLUS</span></div>
                     <div class="brand-item" title="Hikvision"><span class="brand-badge-text color-hikvision">HIKVISION</span></div>
-                    <div class="brand-item" title="Canon"><span class="brand-badge-text color-canon">Canon</span></div>
-                    <div class="brand-item brand-wide" title="Epson"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/epson.svg" alt="Epson" style="filter: invert(16%) sepia(97%) saturate(3501%) hue-rotate(224deg) brightness(90%) contrast(108%);"></div>
+                    <div class="brand-item" title="TP-Link"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/tplink.svg" alt="TP-Link" style="filter: invert(66%) sepia(48%) saturate(1476%) hue-rotate(130deg) brightness(96%) contrast(89%);" /></div>
+                    <div class="brand-item" title="D-Link"><span class="brand-badge-text color-dlink">D-Link</span></div>
+                    <div class="brand-item" title="Netgear"><span class="brand-badge-text color-netgear">NETGEAR</span></div>
+                    <div class="brand-item" title="Cisco"><span class="brand-badge-text color-cisco">CISCO</span></div>
                 </div>
 
                 <!-- Track 2 (Duplicate for Seamless Loop) -->
                 <div class="brand-track" aria-hidden="true">
-                    <div class="brand-item" title="Samsung"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/samsung.svg" alt="Samsung" style="filter: invert(18%) sepia(86%) saturate(3364%) hue-rotate(212deg) brightness(88%) contrast(101%);"></div>
+                    <div class="brand-item" title="Apple"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/apple.svg" alt="Apple" /></div>
+                    <div class="brand-item" title="Samsung"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/samsung.svg" alt="Samsung" style="filter: invert(18%) sepia(86%) saturate(3364%) hue-rotate(212deg) brightness(88%) contrast(101%);" /></div>
                     <div class="brand-item" title="Sony"><span class="brand-badge-text color-sony">SONY</span></div>
-                    <div class="brand-item" title="LG"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/lg.svg" alt="LG" style="filter: invert(14%) sepia(83%) saturate(5412%) hue-rotate(336deg) brightness(88%) contrast(105%);"></div>
-                    <div class="brand-item" title="Apple"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/apple.svg" alt="Apple"></div>
+                    <div class="brand-item" title="LG"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/lg.svg" alt="LG" style="filter: invert(14%) sepia(83%) saturate(5412%) hue-rotate(336deg) brightness(88%) contrast(105%);" /></div>
                     <div class="brand-item" title="Nothing"><span class="brand-badge-text color-nothing">NOTHING</span></div>
                     <div class="brand-item" title="Hisense"><span class="brand-badge-text color-hisense">Hisense</span></div>
-                    <div class="brand-item" title="OnePlus"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/oneplus.svg" alt="OnePlus" style="filter: invert(12%) sepia(97%) saturate(7404%) hue-rotate(357deg) brightness(98%) contrast(107%);"></div>
-                    <div class="brand-item" title="Xiaomi"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/xiaomi.svg" alt="Xiaomi" style="filter: invert(53%) sepia(93%) saturate(2250%) hue-rotate(360deg) brightness(101%) contrast(105%);"></div>
+                    <div class="brand-item" title="OnePlus"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/oneplus.svg" alt="OnePlus" style="filter: invert(12%) sepia(97%) saturate(7404%) hue-rotate(357deg) brightness(98%) contrast(107%);" /></div>
                     <div class="brand-item" title="Vivo"><span class="brand-badge-text color-vivo">vivo</span></div>
                     <div class="brand-item" title="Realme"><span class="brand-badge-text color-realme">realme</span></div>
-                    <div class="brand-item" title="HP"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/hp.svg" alt="HP" style="filter: invert(18%) sepia(87%) saturate(3025%) hue-rotate(185deg) brightness(92%) contrast(101%);"></div>
-                    <div class="brand-item" title="Dell"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/dell.svg" alt="Dell" style="filter: invert(24%) sepia(95%) saturate(2361%) hue-rotate(187deg) brightness(91%) contrast(101%);"></div>
-                    <div class="brand-item brand-wide" title="Lenovo"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/lenovo.svg" alt="Lenovo" style="filter: invert(16%) sepia(94%) saturate(6011%) hue-rotate(352deg) brightness(91%) contrast(98%);"></div>
-                    <div class="brand-item brand-wide" title="ASUS"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/asus.svg" alt="ASUS" style="filter: invert(18%) sepia(92%) saturate(2250%) hue-rotate(205deg) brightness(92%) contrast(102%);"></div>
+                    <div class="brand-item" title="Xiaomi"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/xiaomi.svg" alt="Xiaomi" style="filter: invert(53%) sepia(93%) saturate(2250%) hue-rotate(360deg) brightness(101%) contrast(105%);" /></div>
+                    <div class="brand-item" title="HP"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/hp.svg" alt="HP" style="filter: invert(18%) sepia(87%) saturate(3025%) hue-rotate(185deg) brightness(92%) contrast(101%);" /></div>
+                    <div class="brand-item" title="Dell"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/dell.svg" alt="Dell" style="filter: invert(24%) sepia(95%) saturate(2361%) hue-rotate(187deg) brightness(91%) contrast(101%);" /></div>
+                    <div class="brand-item brand-wide" title="Lenovo"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/lenovo.svg" alt="Lenovo" style="filter: invert(16%) sepia(94%) saturate(6011%) hue-rotate(352deg) brightness(91%) contrast(98%);" /></div>
+                    <div class="brand-item brand-wide" title="ASUS"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/asus.svg" alt="ASUS" style="filter: invert(18%) sepia(92%) saturate(2250%) hue-rotate(205deg) brightness(92%) contrast(102%);" /></div>
                     <div class="brand-item" title="CP PLUS"><span class="brand-badge-text color-cpplus">CP PLUS</span></div>
                     <div class="brand-item" title="Hikvision"><span class="brand-badge-text color-hikvision">HIKVISION</span></div>
-                    <div class="brand-item" title="Canon"><span class="brand-badge-text color-canon">Canon</span></div>
-                    <div class="brand-item brand-wide" title="Epson"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/epson.svg" alt="Epson" style="filter: invert(16%) sepia(97%) saturate(3501%) hue-rotate(224deg) brightness(90%) contrast(108%);"></div>
+                    <div class="brand-item" title="TP-Link"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/tplink.svg" alt="TP-Link" style="filter: invert(66%) sepia(48%) saturate(1476%) hue-rotate(130deg) brightness(96%) contrast(89%);" /></div>
+                    <div class="brand-item" title="D-Link"><span class="brand-badge-text color-dlink">D-Link</span></div>
+                    <div class="brand-item" title="Netgear"><span class="brand-badge-text color-netgear">NETGEAR</span></div>
+                    <div class="brand-item" title="Cisco"><span class="brand-badge-text color-cisco">CISCO</span></div>
                 </div>
             </div>
         </div>
 
-        <!-- 6 Products Grid -->
+        <!-- 6 Core Products Grid in Exact Sequence -->
         <section id="products">
             <div class="container">
                 <div class="section-heading">
-                    <div class="label">Our Showroom Range</div>
-                    <h2>Laptops, Smart TVs, Mobiles & Security</h2>
-                    <p>Find the right electronics for work, home entertainment, and security with certified warranty support.</p>
+                    <div class="label">Showroom Offerings</div>
+                    <h2>Everything You Need Under One Roof</h2>
+                    <p>Complete technology range for personal computing, smart home entertainment, and commercial infrastructure.</p>
                 </div>
 
                 <div class="cards-6">
+                    <!-- 1. Laptops & Desktops -->
                     <article class="card">
                         <div class="card-icon"><i class="fa-solid fa-laptop"></i></div>
                         <h3>Laptops & Desktops</h3>
-                        <p>HP, Dell, Lenovo, ASUS & Apple laptops for students, businesses, and creators.</p>
+                        <p>HP, Dell, Lenovo, ASUS & Apple MacBook. Student notebooks, business workstations, and custom liquid-cooled gaming PCs.</p>
                     </article>
 
-                    <article class="card">
-                        <div class="card-icon"><i class="fa-solid fa-tv"></i></div>
-                        <h3>Smart 4K Android TVs</h3>
-                        <p>Sony, Samsung, LG, Hisense & Mi Smart TVs (32" to 65") with wall mounting setup.</p>
-                    </article>
-
+                    <!-- 2. Smartphones & Tablets -->
                     <article class="card">
                         <div class="card-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
                         <h3>Smartphones & Tablets</h3>
-                        <p>Nothing Phone, Samsung, OnePlus, Vivo, Realme & Xiaomi with original accessories.</p>
+                        <p>Latest 5G smartphones from Nothing, OnePlus, Samsung, Vivo & Realme with fast chargers, wireless audio, and protection.</p>
                     </article>
 
+                    <!-- 3. CCTV Surveillance & Security -->
                     <article class="card">
                         <div class="card-icon"><i class="fa-solid fa-video"></i></div>
-                        <h3>CCTV Security Systems</h3>
-                        <p>Complete HD/IP camera installation, remote mobile view setups, and DVR maintenance.</p>
+                        <h3>CCTV Surveillance & Security</h3>
+                        <p>CP PLUS & Hikvision HD/IP camera installation, DVR/NVR multi-channel setups, color night-vision & smartphone live monitoring.</p>
                     </article>
 
+                    <!-- 4. Smart 4K LED TVs -->
                     <article class="card">
-                        <div class="card-icon"><i class="fa-solid fa-gamepad"></i></div>
-                        <h3>Gaming PCs & Gear</h3>
-                        <p>High-end custom PC rigs, GPUs, gaming mechanical keyboards, RGB mice, and headsets.</p>
+                        <div class="card-icon"><i class="fa-solid fa-tv"></i></div>
+                        <h3>Smart 4K LED TVs</h3>
+                        <p>Sony Bravia, Samsung, LG, Hisense & Mi Smart TVs (32" to 65") with precision wall mounting, soundbar integration & app setups.</p>
                     </article>
 
+                    <!-- 5. Structured Networking & Wi-Fi -->
                     <article class="card">
-                        <div class="card-icon"><i class="fa-solid fa-headphones"></i></div>
-                        <h3>Accessories & Peripherals</h3>
-                        <p>Printers, ink, NVMe SSDs, RAM, routers, high-speed cables, power banks & audio gear.</p>
+                        <div class="card-icon"><i class="fa-solid fa-network-wired"></i></div>
+                        <h3>Structured Networking & Wi-Fi</h3>
+                        <p>CAT6 & Fiber optic LAN cabling, Wi-Fi 6 mesh deployments, Gigabit switches, server racks, and turnkey office network setups.</p>
+                    </article>
+
+                    <!-- 6. Express Diagnostics & Repairs -->
+                    <article class="card">
+                        <div class="card-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                        <h3>Express Diagnostics & Repairs</h3>
+                        <p>Expert chip-level motherboard restoration, instant NVMe SSD & RAM performance boosts, mobile folder replacements, and OS tune-ups.</p>
                     </article>
                 </div>
             </div>
         </section>
 
-        <!-- Multi-Brand Categorized Section -->
-        <section class="dark-section">
-            <div class="container">
-                <div class="section-heading">
-                    <div class="label">Multi-Brand Showcase</div>
-                    <h2>Top National & Global Brands</h2>
-                    <p>Tell us your requirement and budget — we'll help you pick the best device.</p>
-                </div>
-
-                <div class="product-grid">
-                    <article class="product">
-                        <i class="fa-solid fa-laptop"></i>
-                        <h3>Laptops & IT</h3>
-                        <p>Business, study, and high-performance computing.</p>
-                        <div class="chips">
-                            <span class="chip">HP</span>
-                            <span class="chip">Dell</span>
-                            <span class="chip">Lenovo</span>
-                            <span class="chip">ASUS</span>
-                            <span class="chip">Apple</span>
-                        </div>
-                    </article>
-
-                    <article class="product">
-                        <i class="fa-solid fa-tv"></i>
-                        <h3>Smart TVs</h3>
-                        <p>4K Ultra HD, QLED & Google Smart TVs for home entertainment.</p>
-                        <div class="chips">
-                            <span class="chip">Sony</span>
-                            <span class="chip">Samsung</span>
-                            <span class="chip">LG</span>
-                            <span class="chip">Hisense</span>
-                            <span class="chip">Xiaomi</span>
-                        </div>
-                    </article>
-
-                    <article class="product">
-                        <i class="fa-solid fa-mobile-screen"></i>
-                        <h3>Smartphones</h3>
-                        <p>Budget to flagship smartphones and original accessories.</p>
-                        <div class="chips">
-                            <span class="chip">Nothing</span>
-                            <span class="chip">OnePlus</span>
-                            <span class="chip">Samsung</span>
-                            <span class="chip">Vivo</span>
-                            <span class="chip">Realme</span>
-                        </div>
-                    </article>
-
-                    <article class="product">
-                        <i class="fa-solid fa-shield-halved"></i>
-                        <h3>CCTV & Security</h3>
-                        <p>Reliable surveillance systems for homes, shops & offices.</p>
-                        <div class="chips">
-                            <span class="chip">CP PLUS</span>
-                            <span class="chip">Hikvision</span>
-                            <span class="chip">DVR/NVR</span>
-                            <span class="chip">Wi-Fi Cams</span>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <!-- Services Section -->
+        <!-- Detailed Services Section -->
         <section id="services">
             <div class="container">
                 <div class="section-heading">
                     <div class="label">Showroom Services</div>
-                    <h2>Diagnostics, Setup & Quick Repair</h2>
-                    <p>Professional technical support for computers, TVs, and mobile devices in Jehanabad.</p>
+                    <h2>Networking, Upgrades & Technical Repair</h2>
+                    <p>Comprehensive setup and hardware maintenance for offices, shops, schools, and homes.</p>
                 </div>
 
                 <div class="service-layout">
                     <div class="service-highlight">
-                        <h3>Need an urgent repair or setup?</h3>
+                        <h3>Commercial Networking & CCTV Setup</h3>
                         <p>
-                            Bring your device to Galaxy Computers for express diagnostic,
-                            genuine spare replacement, and dependable service.
+                            Planning a new office, coaching institute, shop, or home network in Jehanabad? 
+                            Galaxy Computers provides complete turnkey infrastructure setup.
                         </p>
 
                         <div class="check-list">
-                            <div><i class="fa-solid fa-check"></i> Laptop chip-level & motherboard repair</div>
-                            <div><i class="fa-solid fa-check"></i> Mobile screen & battery replacement</div>
-                            <div><i class="fa-solid fa-check"></i> Smart TV wall mounting & setup</div>
-                            <div><i class="fa-solid fa-check"></i> Instant SSD & RAM speed upgrades</div>
-                            <div><i class="fa-solid fa-check"></i> CCTV camera installation & mobile view config</div>
+                            <div><i class="fa-solid fa-check"></i> Office LAN & structured CAT6 / Fiber cabling</div>
+                            <div><i class="fa-solid fa-check"></i> Multi-floor Wi-Fi Mesh & high-gain router configuration</div>
+                            <div><i class="fa-solid fa-check"></i> Server rack, patch panel & Gigabit switch installation</div>
+                            <div><i class="fa-solid fa-check"></i> HD/IP CCTV camera deployment with mobile app viewing</div>
+                            <div><i class="fa-solid fa-check"></i> Instant NVMe SSD & RAM speed upgrade service</div>
                         </div>
 
-                        <br>
-                        <a class="btn btn-whatsapp" href="https://wa.me/919288104909?text=Hello%20Galaxy%20Computers%2C%20I%20need%20repair%20or%20setup%20assistance" target="_blank" rel="noopener">
-                            <i class="fa-brands fa-whatsapp"></i> Book a Repair Enquiry
+                        <br />
+                        <a class="btn btn-whatsapp" href="https://wa.me/919288104909?text=Hello%20Galaxy%20Computers%2C%20I%20need%20networking%20or%20CCTV%20setup%20enquiry" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-whatsapp"></i> Enquire About Networking / CCTV
                         </a>
                     </div>
 
                     <div class="service-list">
                         <article class="service-item">
-                            <i class="fa-solid fa-laptop-medical"></i>
-                            <h4>Laptop & PC Repair</h4>
-                            <p>Hardware diagnostics, OS installation, motherboard and hinge repair.</p>
-                        </article>
-
-                        <article class="service-item">
-                            <i class="fa-solid fa-mobile-screen"></i>
-                            <h4>Mobile Screen & Battery</h4>
-                            <p>Display replacement, charging port fix, and genuine accessories.</p>
-                        </article>
-
-                        <article class="service-item">
-                            <i class="fa-solid fa-tv"></i>
-                            <h4>Smart TV Installation</h4>
-                            <p>Wall bracket fitting, soundbar wiring, and OTT app configuration.</p>
+                            <i class="fa-solid fa-network-wired"></i>
+                            <h4>Office LAN & Wi-Fi Setup</h4>
+                            <p>Seamless connectivity with structured cabling, routers, switches, and load balancing.</p>
                         </article>
 
                         <article class="service-item">
                             <i class="fa-solid fa-video"></i>
-                            <h4>CCTV Security Setup</h4>
-                            <p>End-to-end wiring, NVR setup, and remote view on your smartphone.</p>
+                            <h4>CCTV Installation & Repair</h4>
+                            <p>Camera placement, DVR hard disk replacement, wiring repairs, and remote phone view setup.</p>
                         </article>
 
                         <article class="service-item">
                             <i class="fa-solid fa-memory"></i>
-                            <h4>SSD & Performance Boost</h4>
-                            <p>Make slow laptops & desktops up to 10x faster with NVMe SSDs.</p>
+                            <h4>SSD & RAM Boost (10x Faster)</h4>
+                            <p>Upgrade sluggish laptops and desktops with high-speed NVMe SSDs and dual-channel RAM.</p>
                         </article>
 
                         <article class="service-item">
-                            <i class="fa-solid fa-network-wired"></i>
-                            <h4>Wi-Fi & Networking</h4>
-                            <p>High-range routers, mesh setups, and shop/office LAN networks.</p>
+                            <i class="fa-solid fa-laptop-medical"></i>
+                            <h4>Chip-Level Motherboard Repair</h4>
+                            <p>Diagnostic solutions for dead laptops, charging issues, screen flickering, and liquid damage.</p>
+                        </article>
+
+                        <article class="service-item">
+                            <i class="fa-solid fa-tv"></i>
+                            <h4>Smart TV Fitting & Audio</h4>
+                            <p>Precision wall bracket mounting, soundbar wiring, and Android/Google TV app configuration.</p>
+                        </article>
+
+                        <article class="service-item">
+                            <i class="fa-solid fa-mobile-screen"></i>
+                            <h4>Mobile Display & Battery</h4>
+                            <p>Original glass/folder replacement, charging socket repair, and genuine parts.</p>
                         </article>
                     </div>
                 </div>
@@ -1206,9 +1145,9 @@
                 <div class="gallery-placeholder">
                     <div>
                         <i class="fa-solid fa-store"></i>
-                        <h3>Our Showroom — Coming Soon</h3>
+                        <h3>Our Showroom — Opening Soon</h3>
                         <p>
-                            Real showroom photos, live stock displays, and product shelves will be added here once the store opens on Fida Hussain Road.
+                            Real showroom photos, inventory displays, and live product demo counters will be updated right here upon store inauguration on Fida Hussain Road.
                         </p>
                     </div>
                 </div>
@@ -1220,45 +1159,45 @@
             <div class="container">
                 <div class="section-heading">
                     <div class="label">Why Galaxy Computers</div>
-                    <h2>Your Local Electronics Destination</h2>
-                    <p>Genuine brands, transparent pricing, and trusted after-sales service in Jehanabad.</p>
+                    <h2>Your Trusted IT & Security Partner in Jehanabad</h2>
+                    <p>Genuine multi-brand hardware, verified warranties, and dependable local after-sales service.</p>
                 </div>
 
                 <div class="why-grid">
                     <article class="why-card">
                         <i class="fa-solid fa-shield-halved"></i>
-                        <strong>100% Genuine Products</strong>
+                        <strong>100% Genuine Hardware</strong>
                         <p>Direct sourcing from authorized distributors with full brand warranty support.</p>
                     </article>
 
                     <article class="why-card">
-                        <i class="fa-solid fa-tags"></i>
-                        <strong>Best Price for Every Budget</strong>
-                        <p>Honest recommendations to get maximum performance within your specified budget.</p>
+                        <i class="fa-solid fa-network-wired"></i>
+                        <strong>Complete IT & Network Infrastructure</strong>
+                        <p>From single laptops to multi-PC network labs, we handle hardware, cabling & configuration.</p>
                     </article>
 
                     <article class="why-card">
                         <i class="fa-solid fa-screwdriver-wrench"></i>
-                        <strong>Complete In-House Service</strong>
-                        <p>Repair, upgrading, and troubleshooting under one roof without long delays.</p>
+                        <strong>Same-Day Diagnostic & Upgrades</strong>
+                        <p>Instant SSD/RAM upgrades and rapid hardware troubleshooting without weeks of turnaround.</p>
                     </article>
 
                     <article class="why-card">
-                        <i class="fa-solid fa-tv"></i>
-                        <strong>TV & CCTV Doorstep Support</strong>
-                        <p>On-site installation and configuration for homes, shops, and coaching institutes.</p>
+                        <i class="fa-solid fa-video"></i>
+                        <strong>On-Site CCTV & TV Installation</strong>
+                        <p>Professional doorstep technician visits for cabling, wall mounting, and configuration.</p>
                     </article>
 
                     <article class="why-card">
-                        <i class="fa-solid fa-handshake"></i>
-                        <strong>Business & Institutional IT</strong>
-                        <p>Bulk computer labs, smart classroom setups, and commercial surveillance.</p>
+                        <i class="fa-solid fa-tags"></i>
+                        <strong>Honest, Transparent Pricing</strong>
+                        <p>Get recommendations tailored to your performance requirements rather than overpriced specs.</p>
                     </article>
 
                     <article class="why-card">
                         <i class="fa-solid fa-location-dot"></i>
-                        <strong>Prime Location in Jehanabad</strong>
-                        <p>Conveniently located on Fida Hussain Road with easy access.</p>
+                        <strong>Prime Jehanabad Location</strong>
+                        <p>Easily accessible showroom on Fida Hussain Road for product purchases and repairs.</p>
                     </article>
                 </div>
             </div>
@@ -1269,12 +1208,12 @@
             <div class="container" style="padding-top:0;">
                 <div class="cta">
                     <div>
-                        <h2>Looking for a specific Laptop, TV or Mobile?</h2>
-                        <p>Send us your preferred model or budget on WhatsApp. We'll give you instant pricing & availability.</p>
+                        <h2>Need a custom quote for Office Setup or Bulk Order?</h2>
+                        <p>Send your requirements for Laptops, Mobiles, CCTV, TVs, or Networking on WhatsApp for instant pricing.</p>
                     </div>
                     <div class="cta-actions">
-                        <a class="btn btn-whatsapp" href="https://wa.me/919288104909?text=Hello%20Galaxy%20Computers%2C%20I%20am%20looking%20for%20a%20product%20quote" target="_blank" rel="noopener">
-                            <i class="fa-brands fa-whatsapp"></i> WhatsApp Quote
+                        <a class="btn btn-whatsapp" href="https://wa.me/919288104909?text=Hello%20Galaxy%20Computers%2C%20I%20need%20a%20quote%20for%20products%2Fnetworking" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-whatsapp"></i> Get WhatsApp Quote
                         </a>
                         <a class="btn btn-primary" href="tel:+919288104909">
                             <i class="fa-solid fa-phone"></i> 9288104909
@@ -1361,7 +1300,7 @@
         <div class="footer-inner">
             <div>
                 <div class="footer-brand">Galaxy Computers</div>
-                <p>Multi-brand Laptops, Smart TVs, Mobiles, CCTV & Repair in Jehanabad.</p>
+                <p>Multi-brand Laptops, Mobiles, CCTV Surveillance, Smart TVs & Office Networking in Jehanabad.</p>
             </div>
             <p>&copy; 2026 Galaxy Computers. All Rights Reserved.</p>
         </div>
