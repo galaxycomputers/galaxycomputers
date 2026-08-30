@@ -342,7 +342,7 @@
 
         .trust-item i { color: var(--magenta); font-size: 1rem; }
 
-        /* Infinite Animated Brands Slider */
+        /* Full Color Infinite Animated Brands Slider */
         .brands-section {
             background: #ffffff;
             border-bottom: 1px solid var(--border);
@@ -420,27 +420,28 @@
             width: auto;
             max-width: 120px;
             object-fit: contain;
-            filter: grayscale(100%) opacity(0.6);
-            transition: all 0.25s ease;
+            filter: none;
+            opacity: 1;
+            transition: transform 0.25s ease;
         }
 
         .brand-item .brand-badge-text {
             font-size: 1.35rem;
             font-weight: 900;
             letter-spacing: -0.5px;
-            color: #71717a;
             white-space: nowrap;
-            transition: all 0.25s ease;
+            transition: transform 0.25s ease;
         }
 
-        .brand-item:hover img,
-        .brand-item:hover svg {
-            filter: grayscale(0%) opacity(1);
-            transform: scale(1.15);
-        }
+        /* Brand Colors */
+        .color-apple { color: #000000; }
+        .color-cpplus { color: #e11d48; }
+        .color-hikvision { color: #dc2626; }
+        .color-canon { color: #cc0000; font-family: 'Arial Black', sans-serif; }
+        .color-intel { color: #0071c5; }
+        .color-amd { color: #ed1c24; }
 
-        .brand-item:hover .brand-badge-text {
-            color: var(--magenta);
+        .brand-item:hover {
             transform: scale(1.15);
         }
 
@@ -957,44 +958,44 @@
             </div>
         </div>
 
-        <!-- Infinite Multi-Brand Auto-Slider (Clean Direct SVGs) -->
+        <!-- Full Color Infinite Multi-Brand Auto-Slider -->
         <div class="brands-section">
             <div class="brands-title">Authorized Brands & Hardware Solutions</div>
             <div class="brands-slider">
                 <!-- First Set of Brands -->
                 <div class="brand-track">
                     <div class="brand-item" title="Apple"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/apple.svg" alt="Apple"></div>
-                    <div class="brand-item" title="HP"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/hp.svg" alt="HP"></div>
-                    <div class="brand-item" title="Dell"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/dell.svg" alt="Dell"></div>
-                    <div class="brand-item" title="Lenovo"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/lenovo.svg" alt="Lenovo"></div>
-                    <div class="brand-item" title="ASUS"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/asus.svg" alt="ASUS"></div>
-                    <div class="brand-item" title="CP PLUS"><span class="brand-badge-text">CP PLUS</span></div>
-                    <div class="brand-item" title="Hikvision"><span class="brand-badge-text">HIKVISION</span></div>
-                    <div class="brand-item" title="Canon"><span class="brand-badge-text">Canon</span></div>
-                    <div class="brand-item" title="Epson"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/epson.svg" alt="Epson"></div>
-                    <div class="brand-item" title="Samsung"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/samsung.svg" alt="Samsung"></div>
-                    <div class="brand-item" title="Logitech"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/logitech.svg" alt="Logitech"></div>
-                    <div class="brand-item" title="TP-Link"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/tplink.svg" alt="TP-Link"></div>
-                    <div class="brand-item" title="Intel"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/intel.svg" alt="Intel"></div>
-                    <div class="brand-item" title="AMD"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/amd.svg" alt="AMD"></div>
+                    <div class="brand-item" title="HP"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/hp.svg" alt="HP" style="filter: invert(18%) sepia(87%) saturate(3025%) hue-rotate(185deg) brightness(92%) contrast(101%);"></div>
+                    <div class="brand-item" title="Dell"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/dell.svg" alt="Dell" style="filter: invert(24%) sepia(95%) saturate(2361%) hue-rotate(187deg) brightness(91%) contrast(101%);"></div>
+                    <div class="brand-item" title="Lenovo"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/lenovo.svg" alt="Lenovo" style="filter: invert(16%) sepia(94%) saturate(6011%) hue-rotate(352deg) brightness(91%) contrast(98%);"></div>
+                    <div class="brand-item" title="ASUS"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/asus.svg" alt="ASUS" style="filter: invert(18%) sepia(92%) saturate(2250%) hue-rotate(205deg) brightness(92%) contrast(102%);"></div>
+                    <div class="brand-item" title="CP PLUS"><span class="brand-badge-text color-cpplus">CP PLUS</span></div>
+                    <div class="brand-item" title="Hikvision"><span class="brand-badge-text color-hikvision">HIKVISION</span></div>
+                    <div class="brand-item" title="Canon"><span class="brand-badge-text color-canon">Canon</span></div>
+                    <div class="brand-item" title="Epson"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/epson.svg" alt="Epson" style="filter: invert(16%) sepia(97%) saturate(3501%) hue-rotate(224deg) brightness(90%) contrast(108%);"></div>
+                    <div class="brand-item" title="Samsung"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/samsung.svg" alt="Samsung" style="filter: invert(18%) sepia(86%) saturate(3364%) hue-rotate(212deg) brightness(88%) contrast(101%);"></div>
+                    <div class="brand-item" title="Logitech"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/logitech.svg" alt="Logitech" style="filter: invert(65%) sepia(61%) saturate(3581%) hue-rotate(143deg) brightness(95%) contrast(101%);"></div>
+                    <div class="brand-item" title="TP-Link"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/tplink.svg" alt="TP-Link" style="filter: invert(66%) sepia(48%) saturate(1476%) hue-rotate(130deg) brightness(96%) contrast(89%);"></div>
+                    <div class="brand-item" title="Intel"><span class="brand-badge-text color-intel">intel</span></div>
+                    <div class="brand-item" title="AMD"><span class="brand-badge-text color-amd">AMD</span></div>
                 </div>
 
-                <!-- Duplicate Set for Continuous Seamless Loop -->
+                <!-- Duplicate Set for Continuous Loop -->
                 <div class="brand-track" aria-hidden="true">
                     <div class="brand-item" title="Apple"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/apple.svg" alt="Apple"></div>
-                    <div class="brand-item" title="HP"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/hp.svg" alt="HP"></div>
-                    <div class="brand-item" title="Dell"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/dell.svg" alt="Dell"></div>
-                    <div class="brand-item" title="Lenovo"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/lenovo.svg" alt="Lenovo"></div>
-                    <div class="brand-item" title="ASUS"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/asus.svg" alt="ASUS"></div>
-                    <div class="brand-item" title="CP PLUS"><span class="brand-badge-text">CP PLUS</span></div>
-                    <div class="brand-item" title="Hikvision"><span class="brand-badge-text">HIKVISION</span></div>
-                    <div class="brand-item" title="Canon"><span class="brand-badge-text">Canon</span></div>
-                    <div class="brand-item" title="Epson"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/epson.svg" alt="Epson"></div>
-                    <div class="brand-item" title="Samsung"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/samsung.svg" alt="Samsung"></div>
-                    <div class="brand-item" title="Logitech"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/logitech.svg" alt="Logitech"></div>
-                    <div class="brand-item" title="TP-Link"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/tplink.svg" alt="TP-Link"></div>
-                    <div class="brand-item" title="Intel"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/intel.svg" alt="Intel"></div>
-                    <div class="brand-item" title="AMD"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/amd.svg" alt="AMD"></div>
+                    <div class="brand-item" title="HP"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/hp.svg" alt="HP" style="filter: invert(18%) sepia(87%) saturate(3025%) hue-rotate(185deg) brightness(92%) contrast(101%);"></div>
+                    <div class="brand-item" title="Dell"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/dell.svg" alt="Dell" style="filter: invert(24%) sepia(95%) saturate(2361%) hue-rotate(187deg) brightness(91%) contrast(101%);"></div>
+                    <div class="brand-item" title="Lenovo"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/lenovo.svg" alt="Lenovo" style="filter: invert(16%) sepia(94%) saturate(6011%) hue-rotate(352deg) brightness(91%) contrast(98%);"></div>
+                    <div class="brand-item" title="ASUS"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/asus.svg" alt="ASUS" style="filter: invert(18%) sepia(92%) saturate(2250%) hue-rotate(205deg) brightness(92%) contrast(102%);"></div>
+                    <div class="brand-item" title="CP PLUS"><span class="brand-badge-text color-cpplus">CP PLUS</span></div>
+                    <div class="brand-item" title="Hikvision"><span class="brand-badge-text color-hikvision">HIKVISION</span></div>
+                    <div class="brand-item" title="Canon"><span class="brand-badge-text color-canon">Canon</span></div>
+                    <div class="brand-item" title="Epson"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/epson.svg" alt="Epson" style="filter: invert(16%) sepia(97%) saturate(3501%) hue-rotate(224deg) brightness(90%) contrast(108%);"></div>
+                    <div class="brand-item" title="Samsung"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/samsung.svg" alt="Samsung" style="filter: invert(18%) sepia(86%) saturate(3364%) hue-rotate(212deg) brightness(88%) contrast(101%);"></div>
+                    <div class="brand-item" title="Logitech"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/logitech.svg" alt="Logitech" style="filter: invert(65%) sepia(61%) saturate(3581%) hue-rotate(143deg) brightness(95%) contrast(101%);"></div>
+                    <div class="brand-item" title="TP-Link"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/tplink.svg" alt="TP-Link" style="filter: invert(66%) sepia(48%) saturate(1476%) hue-rotate(130deg) brightness(96%) contrast(89%);"></div>
+                    <div class="brand-item" title="Intel"><span class="brand-badge-text color-intel">intel</span></div>
+                    <div class="brand-item" title="AMD"><span class="brand-badge-text color-amd">AMD</span></div>
                 </div>
             </div>
         </div>
