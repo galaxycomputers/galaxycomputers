@@ -7,246 +7,190 @@
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-     
           gtag('config', 'G-81WMV1Z2BZ');
     </script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Galaxy Computers | Laptops, Mobiles, Audio, CCTV, TVs & Networking in Jehanabad</title>
-    <meta name="description" content="Galaxy Computers is a multi-brand showroom in Jehanabad. We supply, install, and service leading national and international technology brands.">
-    <meta name="keywords" content="computer shop Jehanabad, laptop shop Jehanabad, mobile shop Jehanabad, headphones shop Jehanabad, CCTV shop Jehanabad, Smart TV Jehanabad, networking services Jehanabad, Galaxy Computers">
+    <title>Galaxy Computers | Laptops, Mobiles, CCTV & Networking in Jehanabad</title>
+    <meta name="description" content="Galaxy Computers - Genuine laptops, smartphones, audio, CCTV, smart TVs and networking in Jehanabad. Sales, installation and local support.">
+    <meta name="keywords" content="computer shop Jehanabad, laptop shop Jehanabad, mobile shop Jehanabad, CCTV Jehanabad, networking Jehanabad, Galaxy Computers">
     <meta name="author" content="Galaxy Computers">
     <meta name="robots" content="index, follow">
-    <meta name="theme-color" content="#cc0000">
+    <meta name="theme-color" content="#e10600">
     <link rel="canonical" href="https://galaxycomputers.github.io/">
 
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Galaxy Computers | IT, Mobiles, Audio & Security Showroom">
-    <meta property="og:description" content="We supply, install, and service leading national and international technology brands in Jehanabad.">
+    <meta property="og:title" content="Galaxy Computers | Laptops, Mobiles, CCTV & Networking in Jehanabad">
+    <meta property="og:description" content="Genuine multi-brand technology. Sales, installation and support in Jehanabad.">
     <meta property="og:url" content="https://galaxycomputers.github.io/">
     <meta property="og:image" content="assets/logo.png">
 
     <link rel="icon" type="image/png" href="assets/logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <style>
         :root {
-            --primary: #cc0000;      /* Solid Bright Red */
-            --dark: #000000;         /* Solid Black */
-            --text: #000000;         /* Solid Black */
-            --muted: #666666;        /* Neutral Gray */
-            --surface: #ffffff;      /* Pure White */
-            --soft: #f9f9f9;         /* Very Light Neutral Gray */
-            --border: #e5e5e5;       /* Neutral Light Gray */
+            --red: #e10600;
+            --red-dark: #c10500;
+            --black: #171a20;
+            --text: #171a20;
+            --muted: #5c5e62;
+            --border: #e8e8e8;
+            --white: #ffffff;
             --green: #25d366;
-            --shadow: 0 10px 30px rgba(0, 0, 0, 0.08); /* Neutral Black Shadow */
-            --max: 1180px;
+            --max: 1200px;
         }
 
         * { box-sizing: border-box; margin: 0; padding: 0; }
         html { scroll-behavior: smooth; }
 
         body {
-            font-family: "Plus Jakarta Sans", sans-serif;
-            background: var(--soft);
+            font-family: "Inter", system-ui, -apple-system, sans-serif;
+            background: var(--white);
             color: var(--text);
-            line-height: 1.65;
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
             overflow-x: hidden;
-            padding-bottom: 0;
         }
 
-        a { color: inherit; }
+        a { color: inherit; text-decoration: none; }
         img { max-width: 100%; display: block; }
 
+        /* Focus styles for accessibility */
+        a:focus-visible,
+        button:focus-visible,
+        .btn:focus-visible {
+            outline: 2px solid var(--red);
+            outline-offset: 3px;
+        }
+
         .top-bar {
-            background: var(--primary);
+            background: var(--black);
             color: #fff;
             text-align: center;
-            padding: 9px 16px;
-            font-size: .82rem;
-            font-weight: 800;
-            letter-spacing: .35px;
+            padding: 11px 20px;
+            font-size: 13px;
+            font-weight: 500;
         }
+        .top-bar span { color: #ff6b6b; font-weight: 600; }
 
         header {
             position: sticky;
             top: 0;
             z-index: 1000;
-            background: rgba(255,255,255,.98);
-            border-bottom: 1px solid var(--border);
+            background: rgba(255,255,255,0.92);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(0,0,0,0.06);
         }
 
         .nav {
             max-width: var(--max);
-            margin: auto;
-            padding: 12px 20px;
+            margin: 0 auto;
+            padding: 0 24px;
+            height: 64px;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            gap: 20px;
         }
 
-        .brand {
-            display: flex;
-            align-items: center;
-            gap: 11px;
-            text-decoration: none;
-        }
-
-        .brand img {
-            width: 48px;
-            height: 48px;
-            object-fit: contain;
-            border-radius: 50%;
-            border: 2px solid var(--primary);
-        }
-
-        .brand-name {
-            color: var(--dark);
-            font-size: 1.25rem;
-            font-weight: 800;
-            line-height: 1.1;
-        }
-
-        .brand-name span {
-            display: block;
-            margin-top: 3px;
-            color: var(--primary);
-            font-size: .67rem;
-            letter-spacing: .7px;
-            text-transform: uppercase;
-        }
+        .brand img { height: 36px; width: auto; }
 
         .nav-links {
             display: flex;
-            align-items: center;
-            gap: 22px;
-            font-size: .88rem;
-            font-weight: 700;
+            gap: 32px;
+            font-size: 14px;
+            font-weight: 500;
         }
-
-        .nav-links a { text-decoration: none; color: var(--dark); }
-        .nav-links a:hover { color: var(--primary); }
+        .nav-links a { color: var(--black); transition: color 0.2s; }
+        .nav-links a:hover { color: var(--red); }
 
         .nav-actions {
             display: flex;
             align-items: center;
-            gap: 12px;
+            gap: 16px;
         }
 
         .icon-link {
-            color: var(--dark);
-            font-size: 1.4rem;
-            text-decoration: none;
+            font-size: 20px;
+            color: var(--black);
             transition: color 0.2s;
         }
-        
-        .icon-link:hover {
-            color: var(--primary);
-        }
+        .icon-link:hover { color: var(--red); }
 
         .btn {
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            gap: 9px;
-            border-radius: 999px;
-            padding: 12px 19px;
-            text-decoration: none;
-            font-size: .88rem;
-            font-weight: 800;
-            transition: .25s ease;
-            border: 0;
+            gap: 8px;
+            height: 40px;
+            padding: 0 22px;
+            font-size: 14px;
+            font-weight: 500;
+            border-radius: 4px;
+            border: none;
             cursor: pointer;
+            transition: all 0.25s ease;
+            white-space: nowrap;
         }
 
-        .btn:hover { transform: translateY(-2px); }
-
         .btn-primary {
+            background: var(--red);
             color: #fff;
-            background: var(--primary);
+        }
+        .btn-primary:hover { background: var(--red-dark); }
+
+        .btn-outline {
+            background: transparent;
+            color: var(--black);
+            border: 1px solid #d0d0d0;
+        }
+        .btn-outline:hover {
+            border-color: var(--black);
+            background: rgba(0,0,0,0.03);
         }
 
         .btn-whatsapp {
-            color: #fff;
             background: var(--green);
-        }
-
-        .btn-light {
-            color: var(--dark);
-            background: #fff;
-            border: 1px solid var(--border);
-        }
-
-        /* Hero */
-        .hero {
-            position: relative;
-            overflow: hidden;
             color: #fff;
-            background: var(--dark);
         }
+        .btn-whatsapp:hover { background: #1ebe57; }
 
-        .hero::before {
-            content: "";
-            position: absolute;
-            inset: 0;
-            opacity: .15;
-            background-image: radial-gradient(rgba(255,255,255,.5) 1px, transparent 1px);
-            background-size: 34px 34px;
-            pointer-events: none;
+        .hero {
+            background: var(--black);
+            color: #fff;
         }
 
         .hero-inner {
-            position: relative;
-            z-index: 1;
             max-width: var(--max);
-            margin: auto;
-            padding: 70px 20px 65px;
+            margin: 0 auto;
+            padding: 100px 24px 90px;
             display: grid;
-            grid-template-columns: 1.05fr 0.95fr;
+            grid-template-columns: 1.15fr 0.85fr;
+            gap: 60px;
             align-items: center;
-            gap: 45px;
-        }
-
-        .eyebrow {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            padding: 8px 13px;
-            border-radius: 999px;
-            background: transparent;
-            border: 1px solid var(--primary);
-            color: var(--surface);
-            font-size: .76rem;
-            font-weight: 800;
-            text-transform: uppercase;
-            letter-spacing: .75px;
-            margin-bottom: 18px;
         }
 
         .hero h1 {
-            max-width: 730px;
-            font-size: clamp(2.35rem, 5vw, 3.8rem);
+            font-size: clamp(2.7rem, 5.2vw, 3.7rem);
+            font-weight: 700;
             line-height: 1.08;
-            letter-spacing: -1.8px;
-            margin-bottom: 18px;
+            letter-spacing: -1.5px;
+            margin-bottom: 20px;
         }
-
-        .hero h1 em {
-            font-style: normal;
-            color: var(--primary);
-        }
+        .hero h1 span { color: #ff6b6b; }
 
         .hero p {
-            max-width: 690px;
-            color: #cccccc;
-            font-size: 1.05rem;
-            margin-bottom: 24px;
+            font-size: 17px;
+            color: #c8c8c8; /* improved contrast */
+            max-width: 440px;
+            line-height: 1.6;
+            margin-bottom: 36px;
         }
 
         .hero-buttons {
@@ -256,37 +200,23 @@
         }
 
         .hero-note {
-            margin-top: 18px;
-            color: #999999;
-            font-size: .8rem;
+            margin-top: 28px;
+            font-size: 13px;
+            color: #999;
         }
 
-        /* 6-Grid Panel for "What are you looking for?" */
         .hero-panel {
-            background: rgba(255,255,255,.05);
-            border: 1px solid rgba(255,255,255,.1);
-            border-radius: 25px;
-            padding: 22px;
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 8px;
+            padding: 28px;
         }
 
-        .hero-panel-top {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 15px;
-            margin-bottom: 14px;
-        }
-
-        .hero-panel h3 { font-size: 1.05rem; font-weight: 800; }
-
-        .open-pill {
-            font-size: .68rem;
-            font-weight: 800;
-            padding: 5px 10px;
-            border-radius: 999px;
-            background: rgba(37,211,102,.15);
-            color: #86efac;
-            border: 1px solid rgba(134,239,172,.25);
+        .hero-panel h3 {
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 18px;
+            color: #ccc;
         }
 
         .hero-service-grid {
@@ -296,70 +226,69 @@
         }
 
         .hero-service-item {
-            background: rgba(255, 255, 255, 0.03);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 14px;
-            padding: 10px 12px;
             display: flex;
             align-items: center;
-            gap: 11px;
-            transition: 0.2s;
+            gap: 12px;
+            padding: 12px 14px;
+            border-radius: 6px;
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.06);
+            transition: all 0.2s;
         }
-
         .hero-service-item:hover {
-            background: rgba(255, 255, 255, 0.1);
-            border-color: var(--primary);
+            background: rgba(255,255,255,0.07);
+            border-color: rgba(225,6,0,0.45);
         }
 
         .hero-service-item i {
-            width: 34px;
-            height: 34px;
+            width: 32px;
+            height: 32px;
             display: grid;
             place-items: center;
-            border-radius: 9px;
-            background: rgba(255, 255, 255, .1);
-            color: var(--primary);
-            font-size: 0.95rem;
+            border-radius: 6px;
+            background: rgba(225,6,0,0.15);
+            color: #ff6b6b;
+            font-size: 14px;
             flex-shrink: 0;
         }
 
-        .hero-service-item strong { display: block; font-size: .84rem; line-height: 1.2; }
-        .hero-service-item small { color: #999999; font-size: .72rem; }
+        .hero-service-item strong {
+            display: block;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        .hero-service-item small {
+            font-size: 11px;
+            color: #888;
+        }
 
-        /* Trust Strip */
         .trust-strip {
-            background: #fff;
             border-bottom: 1px solid var(--border);
+            background: #fafafa;
         }
 
         .trust-grid {
-            max-width: 1100px;
-            margin: auto;
-            padding: 18px 20px;
+            max-width: var(--max);
+            margin: 0 auto;
+            padding: 18px 24px;
             display: grid;
             grid-template-columns: repeat(4, 1fr);
-            gap: 12px;
+            gap: 16px;
         }
 
         .trust-item {
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 9px;
-            color: var(--dark);
-            font-size: .82rem;
-            font-weight: 700;
-            text-align: center;
+            gap: 10px;
+            font-size: 13px;
+            font-weight: 500;
         }
+        .trust-item i { color: var(--red); }
 
-        .trust-item i { color: var(--primary); font-size: 1rem; }
-
-        /* Infinite Brands Marquee */
         .brands-section {
-            background: #ffffff;
+            padding: 48px 0;
             border-bottom: 1px solid var(--border);
-            padding: 34px 0;
-            text-align: center;
             overflow: hidden;
             position: relative;
         }
@@ -374,36 +303,33 @@
             z-index: 2;
             pointer-events: none;
         }
-
         .brands-section::before {
             left: 0;
-            background: linear-gradient(to right, #ffffff, rgba(255, 255, 255, 0));
+            background: linear-gradient(to right, #fff, transparent);
         }
-
         .brands-section::after {
             right: 0;
-            background: linear-gradient(to left, #ffffff, rgba(255, 255, 255, 0));
+            background: linear-gradient(to left, #fff, transparent);
         }
 
         .brands-title {
-            font-size: 0.76rem;
-            font-weight: 800;
-            text-transform: uppercase;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 600;
             letter-spacing: 1.5px;
+            text-transform: uppercase;
             color: var(--muted);
-            margin-bottom: 24px;
-            padding: 0 20px;
+            margin-bottom: 28px;
         }
 
         .brands-slider {
             display: flex;
             width: max-content;
-            animation: scrollBrands 40s linear infinite;
+            animation: scroll 38s linear infinite; /* slightly faster */
         }
-
         .brands-slider:hover { animation-play-state: paused; }
 
-        @keyframes scrollBrands {
+        @keyframes scroll {
             0% { transform: translateX(0); }
             100% { transform: translateX(-50%); }
         }
@@ -416,86 +342,61 @@
         }
 
         .brand-item {
+            height: 42px;
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 52px;
-            min-width: 95px;
-            transition: transform 0.25s ease;
+            min-width: 80px;
         }
 
-        .brand-item img,
-        .brand-item svg {
-            height: 38px;
+        .brand-item img {
+            height: 28px;
             width: auto;
-            max-width: 130px;
+            max-width: 110px;
             object-fit: contain;
-            filter: grayscale(100%) contrast(150%);
-            opacity: 0.7;
-            transition: all 0.25s ease;
+            filter: grayscale(80%);
+            opacity: 0.75;
+            transition: all 0.25s;
         }
-
-        .brand-wide img {
-            height: 44px !important;
-            max-width: 140px !important;
-            transform: scale(1.2);
-        }
-
-        .brand-item .brand-badge-text {
-            font-size: 1.35rem;
-            font-weight: 900;
-            letter-spacing: -0.5px;
-            white-space: nowrap;
-            color: var(--muted);
-            transition: all 0.25s ease;
-        }
-
-        .brand-item:hover img,
-        .brand-item:hover svg {
-            filter: grayscale(0%) contrast(100%);
+        .brand-item:hover img {
+            filter: none;
             opacity: 1;
-            transform: scale(1.15);
         }
 
-        .brand-item:hover .brand-badge-text {
-            color: var(--dark);
-            transform: scale(1.15);
-        }
-
-        /* Container & Cards */
-        section { scroll-margin-top: 82px; }
+        section { scroll-margin-top: 80px; }
 
         .container {
             max-width: var(--max);
-            margin: auto;
-            padding: 78px 20px;
+            margin: 0 auto;
+            padding: 88px 24px; /* consistent vertical rhythm */
         }
 
         .section-heading {
-            max-width: 730px;
-            margin: 0 auto 42px;
+            max-width: 520px;
+            margin: 0 auto 52px;
             text-align: center;
         }
 
         .section-heading .label {
-            color: var(--primary);
-            font-size: .74rem;
-            font-weight: 800;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 1.5px;
             text-transform: uppercase;
-            letter-spacing: 1.2px;
+            color: var(--red);
+            margin-bottom: 12px;
         }
 
         .section-heading h2 {
-            color: var(--dark);
-            font-size: clamp(1.85rem, 4vw, 2.6rem);
-            line-height: 1.15;
-            letter-spacing: -.8px;
-            margin: 7px 0 12px;
+            font-size: clamp(1.9rem, 3.5vw, 2.3rem);
+            font-weight: 700;
+            letter-spacing: -0.7px;
+            line-height: 1.2;
+            margin-bottom: 12px;
         }
 
         .section-heading p {
+            font-size: 16px;
             color: var(--muted);
-            font-size: .96rem;
         }
 
         .cards-6 {
@@ -507,284 +408,424 @@
         .card {
             background: #fff;
             border: 1px solid var(--border);
-            border-radius: 18px;
-            padding: 25px 21px;
-            transition: .25s ease;
+            border-radius: 8px;
+            padding: 30px 26px;
+            transition: all 0.3s ease;
+            position: relative;
         }
-
         .card:hover {
-            transform: translateY(-5px);
-            box-shadow: var(--shadow);
-            border-color: var(--primary);
+            border-color: #ccc;
+            box-shadow: 0 12px 40px rgba(0,0,0,0.06);
+            transform: translateY(-4px);
+        }
+        .card:hover::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 12px;
+            bottom: 12px;
+            width: 3px;
+            background: var(--red);
+            border-radius: 0 2px 2px 0;
         }
 
         .card-icon {
-            width: 52px;
-            height: 52px;
+            width: 44px;
+            height: 44px;
             display: grid;
             place-items: center;
-            border-radius: 14px;
-            background: var(--dark);
-            color: #ffffff;
-            font-size: 1.35rem;
+            border-radius: 8px;
+            background: #f5f5f5;
+            color: var(--black);
+            font-size: 18px;
             margin-bottom: 18px;
+            transition: all 0.25s;
         }
-
         .card:hover .card-icon {
-            background: var(--primary);
+            background: var(--red);
+            color: #fff;
         }
 
         .card h3 {
-            color: var(--dark);
-            font-size: 1.1rem;
+            font-size: 17px;
+            font-weight: 600;
             margin-bottom: 8px;
         }
 
         .card p {
+            font-size: 14px;
             color: var(--muted);
-            font-size: .86rem;
-            line-height: 1.6;
+            line-height: 1.55;
         }
 
-        /* Services Layout */
         .service-layout {
             display: grid;
-            grid-template-columns: .95fr 1.05fr;
-            gap: 25px;
-            align-items: stretch;
+            grid-template-columns: 1fr 1.1fr;
+            gap: 24px;
         }
 
         .service-highlight {
-            border-radius: 22px;
-            padding: 32px;
+            background: var(--black);
             color: #fff;
-            background: var(--primary);
+            border-radius: 8px;
+            padding: 40px;
         }
 
         .service-highlight h3 {
-            font-size: 1.55rem;
-            line-height: 1.2;
+            font-size: 24px;
+            font-weight: 700;
+            letter-spacing: -0.4px;
             margin-bottom: 12px;
         }
 
-        .service-highlight p { color: #ffffff; font-size: .88rem; margin-bottom: 20px; }
+        .service-highlight p {
+            color: #aaa;
+            font-size: 15px;
+            margin-bottom: 26px;
+            line-height: 1.6;
+        }
 
         .check-list {
             display: grid;
-            gap: 10px;
+            gap: 12px;
         }
-
         .check-list div {
             display: flex;
-            gap: 9px;
-            align-items: flex-start;
-            color: #fff;
-            font-size: .82rem;
+            gap: 12px;
+            font-size: 14px;
+            color: #ddd;
         }
-
-        .check-list i { color: #ffffff; margin-top: 4px; }
+        .check-list i { color: #ff6b6b; margin-top: 2px; }
 
         .service-list {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 14px;
+            gap: 16px;
         }
 
         .service-item {
             background: #fff;
             border: 1px solid var(--border);
-            border-radius: 16px;
-            padding: 20px;
+            border-radius: 8px;
+            padding: 24px;
+            transition: all 0.25s;
+        }
+        .service-item:hover {
+            border-color: #ccc;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.05);
         }
 
-        .service-item i { color: var(--primary); margin-bottom: 10px; font-size: 1.15rem; }
-        .service-item h4 { color: var(--dark); font-size: .93rem; margin-bottom: 5px; }
-        .service-item p { color: var(--muted); font-size: .77rem; }
+        .service-item i {
+            color: var(--red);
+            font-size: 18px;
+            margin-bottom: 12px;
+        }
+
+        .service-item h4 {
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 6px;
+        }
+
+        .service-item p {
+            font-size: 13px;
+            color: var(--muted);
+            line-height: 1.5;
+        }
 
         .gallery-placeholder {
-            border-radius: 22px;
-            min-height: 270px;
+            background: linear-gradient(135deg, #f7f7f7 0%, #f0f0f0 100%);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            min-height: 280px;
             display: grid;
             place-items: center;
             text-align: center;
-            padding: 35px;
-            background: var(--dark);
-            color: #fff;
+            padding: 48px;
+            position: relative;
+            overflow: hidden;
         }
-
+        .gallery-placeholder::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle at 30% 40%, rgba(225,6,0,0.04), transparent 60%);
+        }
         .gallery-placeholder i {
-            font-size: 2.6rem;
-            color: var(--primary);
-            margin-bottom: 13px;
+            font-size: 36px;
+            color: var(--red);
+            margin-bottom: 16px;
+            position: relative;
         }
-
-        .gallery-placeholder h3 { font-size: 1.25rem; margin-bottom: 7px; }
-        .gallery-placeholder p { color: #cccccc; max-width: 560px; font-size: .82rem; }
+        .gallery-placeholder h3 {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            position: relative;
+        }
+        .gallery-placeholder p {
+            color: var(--muted);
+            max-width: 380px;
+            font-size: 15px;
+            position: relative;
+        }
 
         .why-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 18px;
+            gap: 20px;
         }
 
         .why-card {
             background: #fff;
             border: 1px solid var(--border);
-            border-radius: 17px;
-            padding: 22px;
+            border-radius: 8px;
+            padding: 28px;
+            transition: all 0.25s;
+        }
+        .why-card:hover {
+            border-color: #ccc;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+        }
+
+        .why-card i {
+            color: var(--red);
+            font-size: 20px;
+            margin-bottom: 14px;
         }
 
         .why-card strong {
             display: block;
-            color: var(--dark);
-            margin: 8px 0 5px;
-            font-size: .96rem;
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 6px;
         }
 
-        .why-card p { color: var(--muted); font-size: .78rem; }
-        .why-card i { color: var(--primary); font-size: 1.2rem; }
+        .why-card p {
+            font-size: 14px;
+            color: var(--muted);
+            line-height: 1.5;
+        }
 
         .cta {
-            background: #fff;
-            border: 1px solid var(--border);
-            border-radius: 23px;
-            padding: 38px;
+            background: var(--black);
+            color: #fff;
+            border-radius: 8px;
+            padding: 48px;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            gap: 25px;
-            box-shadow: var(--shadow);
+            gap: 40px;
         }
 
-        .cta h2 { color: var(--dark); font-size: 1.65rem; line-height: 1.2; margin-bottom: 7px; }
-        .cta p { color: var(--muted); font-size: .84rem; }
-        .cta-actions { display: flex; flex-wrap: wrap; gap: 10px; flex-shrink: 0; }
+        .cta h2 {
+            font-size: 26px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            margin-bottom: 8px;
+        }
 
+        .cta p {
+            color: #aaa;
+            font-size: 15px;
+        }
+
+        .cta-actions {
+            display: flex;
+            gap: 12px;
+            flex-shrink: 0;
+        }
+
+        /* Contact section – now full-width and size-synced */
         .contact {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 18px;
+            grid-template-columns: 1fr;
+            gap: 0;
         }
 
         .contact-card {
             background: #fff;
             border: 1px solid var(--border);
-            border-radius: 20px;
-            padding: 27px;
+            border-radius: 8px;
+            padding: 40px 48px;
+            max-width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 32px 48px;
+            align-items: start;
         }
 
-        .contact-card h3 { color: var(--dark); margin-bottom: 17px; }
-        .contact-row { display: flex; gap: 14px; margin: 15px 0; }
+        .contact-card h3 {
+            font-size: 22px;
+            font-weight: 700;
+            grid-column: 1 / -1;
+            margin-bottom: 8px;
+        }
+
+        .contact-row {
+            display: flex;
+            gap: 16px;
+        }
+
         .contact-icon {
             width: 42px;
             height: 42px;
-            flex: 0 0 42px;
+            flex-shrink: 0;
             display: grid;
             place-items: center;
-            border-radius: 11px;
-            background: var(--dark);
-            color: #ffffff;
+            border-radius: 6px;
+            background: #f5f5f5;
+            color: var(--black);
+            font-size: 15px;
         }
 
-        .contact-row strong { display: block; font-size: .82rem; color: var(--dark); }
-        .contact-row span, .contact-row a { color: var(--muted); font-size: .79rem; text-decoration: none; }
-        .contact-row a:hover { color: var(--primary); }
-
-        .map-card {
-            min-height: 100%;
-            display: grid;
-            place-items: center;
-            text-align: center;
-            padding: 30px;
-            border-radius: 20px;
-            color: #fff;
-            background: var(--dark);
+        .contact-row strong {
+            display: block;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 3px;
         }
 
-        .map-card i { font-size: 2.5rem; color: var(--primary); margin-bottom: 14px; }
-        .map-card h3 { margin-bottom: 7px; }
-        .map-card p { color: #cccccc; font-size: .82rem; margin-bottom: 17px; }
+        .contact-row span,
+        .contact-row a {
+            font-size: 15px;
+            color: var(--muted);
+        }
+        .contact-row a:hover { color: var(--red); }
+
+        .address-link {
+            color: var(--muted);
+            transition: color 0.2s;
+        }
+        .address-link:hover {
+            color: var(--red);
+            text-decoration: underline;
+        }
 
         footer {
-            background: #000000;
-            color: #666666;
-            padding: 38px 20px 30px;
-            border-top: 1px solid #222;
+            background: var(--black);
+            color: #888;
+            padding: 40px 24px;
         }
 
         .footer-inner {
             max-width: var(--max);
-            margin: auto;
+            margin: 0 auto;
             display: flex;
             justify-content: space-between;
-            gap: 20px;
             align-items: center;
+            gap: 24px;
         }
 
-        .footer-brand { color: #ffffff; font-weight: 800; }
-        .footer-inner p { font-size: .72rem; }
+        .footer-brand {
+            color: #fff;
+            font-weight: 700;
+            font-size: 15px;
+            margin-bottom: 4px;
+        }
+
+        .footer-inner p { font-size: 13px; }
 
         .mobile-bar { display: none; }
 
         @media (max-width: 980px) {
             .nav-links { display: none; }
-            .hero-inner { grid-template-columns: 1fr; }
-            .hero-panel { max-width: 600px; }
+            .hero-inner {
+                grid-template-columns: 1fr;
+                padding: 70px 24px 60px;
+                gap: 40px;
+            }
+            .hero-panel { max-width: 480px; }
             .cards-6 { grid-template-columns: 1fr 1fr; }
             .service-layout { grid-template-columns: 1fr; }
+            .why-grid { grid-template-columns: 1fr 1fr; }
+            .contact-card {
+                grid-template-columns: 1fr;
+                padding: 36px;
+            }
         }
 
         @media (max-width: 700px) {
-            body { padding-bottom: 72px; }
-            .top-bar { font-size: .69rem; }
-            .nav { padding: 9px 14px; }
-            .brand img { width: 42px; height: 42px; }
-            .brand-name { font-size: 1.05rem; }
-            .brand-name span { font-size: .58rem; }
+            body { padding-bottom: 76px; }
+
+            .nav { padding: 0 16px; height: 56px; }
+            .brand img { height: 30px; }
             .nav-actions .btn { display: none; }
-            .hero-inner { padding: 58px 18px 55px; gap: 35px; }
-            .hero h1 { font-size: 2.25rem; letter-spacing: -1px; }
-            .hero p { font-size: .92rem; }
-            .hero-panel { padding: 18px; }
-            .hero-service-grid { grid-template-columns: 1fr; }
-            .trust-grid { grid-template-columns: 1fr 1fr; padding: 15px 14px; }
-            .trust-item { font-size: .7rem; }
-            .brand-track { gap: 28px; }
-            .brand-item img, .brand-item svg { height: 26px; max-width: 75px; }
-            .brand-wide img { height: 32px !important; }
-            .brand-item .brand-badge-text { font-size: 1.1rem; }
-            .container { padding: 58px 16px; }
-            .section-heading { margin-bottom: 30px; }
-            .cards-6, .why-grid, .contact { grid-template-columns: 1fr; }
+
+            .hero h1 { font-size: 2.3rem; }
+            .hero-service-grid { grid-template-columns: 1fr 1fr; } /* keep 2-col */
+
+            .trust-grid {
+                grid-template-columns: 1fr 1fr;
+                padding: 16px;
+                gap: 12px;
+            }
+            .trust-item { font-size: 12px; }
+
+            .container { padding: 64px 16px; }
+            .section-heading { margin-bottom: 36px; }
+
+            .cards-6,
+            .why-grid { grid-template-columns: 1fr; }
+
             .service-list { grid-template-columns: 1fr 1fr; }
-            .cta { padding: 27px 22px; display: block; }
-            .cta-actions { margin-top: 18px; }
-            .footer-inner { display: block; text-align: center; }
-            .footer-inner p { margin-top: 8px; }
+
+            .cta {
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 32px 24px;
+            }
+            .cta-actions { width: 100%; }
+            .cta-actions .btn { flex: 1; }
+
+            .contact-card {
+                padding: 28px 20px;
+                gap: 24px;
+            }
+
+            .footer-inner {
+                flex-direction: column;
+                text-align: center;
+                gap: 16px;
+            }
+
             .mobile-bar {
                 position: fixed;
-                display: flex;
-                z-index: 1100;
                 bottom: 0;
                 left: 0;
                 right: 0;
-                padding: 9px 10px;
-                gap: 8px;
-                background: rgba(255,255,255,.97);
+                z-index: 1100;
+                display: flex;
+                gap: 10px;
+                padding: 12px;
+                background: rgba(255,255,255,0.96);
+                backdrop-filter: blur(16px);
                 border-top: 1px solid var(--border);
-                box-shadow: 0 -8px 25px rgba(0,0,0,.08);
             }
             .mobile-bar a {
                 flex: 1;
-                padding: 12px 8px;
-                border-radius: 10px;
-                text-align: center;
-                font-size: .78rem;
-                font-weight: 800;
-                text-decoration: none;
+                height: 48px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 600;
             }
-            .mobile-call { color: #fff; background: var(--dark); }
-            .mobile-wa { color: #fff; background: var(--green); }
+            .mobile-call {
+                background: var(--black);
+                color: #fff;
+            }
+            .mobile-wa {
+                background: var(--green);
+                color: #fff;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-service-grid { grid-template-columns: 1fr; }
+            .service-list { grid-template-columns: 1fr; }
         }
     </style>
 
@@ -814,17 +855,13 @@
 <body>
 
     <div class="top-bar">
-        ⚡ GRAND OPENING SOON IN JEHANABAD — EXCLUSIVE OFFERS ON LAPTOPS, MOBILES, AUDIO & NETWORKING!
+        Opening Soon in Jehanabad · <span>Launch offers</span> on Laptops, Mobiles & CCTV
     </div>
 
     <header>
         <nav class="nav" aria-label="Main navigation">
             <a class="brand" href="#home" aria-label="Galaxy Computers home">
-                <img src="assets/logo.png" alt="Galaxy Computers logo" />
-                <div class="brand-name">
-                    Galaxy Computers
-                    <span>A Multi-Brand Showroom</span>
-                </div>
+                <img src="assets/logo.png" alt="Galaxy Computers" />
             </a>
 
             <div class="nav-links">
@@ -835,11 +872,11 @@
             </div>
 
             <div class="nav-actions">
-                <a class="icon-link" href="https://instagram.com/galaxycomputers.official" target="_blank" rel="noopener" aria-label="Galaxy Computers on Instagram" onclick="gtag('event', 'click_instagram', {'event_category': 'Social'});">
+                <a class="icon-link" href="https://instagram.com/galaxycomputers.official" target="_blank" rel="noopener" aria-label="Instagram" onclick="gtag('event', 'click_instagram', {'event_category': 'Social'});">
                     <i class="fa-brands fa-instagram"></i>
                 </a>
                 <a class="btn btn-primary" href="tel:+919288104909" onclick="gtag('event', 'click_call', {'event_category': 'Lead', 'event_label': 'Header Nav Call'});">
-                    <i class="fa-solid fa-phone"></i> Call Now
+                    Call Now
                 </a>
             </div>
         </nav>
@@ -850,83 +887,66 @@
         <section class="hero">
             <div class="hero-inner">
                 <div>
-                    <div class="eyebrow">
-                        <i class="fa-solid fa-bolt"></i> Coming Soon to Jehanabad
-                    </div>
-
-                    <h1>Your <em>All-in-One</em> IT, Mobile, Audio & Security Showroom</h1>
-
+                    <h1>Laptops. Mobiles.<br><span>Security. Networking.</span></h1>
                     <p>
-                        We supply, install, and service leading national and international technology brands — 
-                        delivering certified computing, premium audio, smart entertainment, and high-speed network infrastructure to Jehanabad.
+                        Genuine multi-brand technology for home and business — supplied, installed and supported in Jehanabad.
                     </p>
-
                     <div class="hero-buttons">
-                        <a class="btn btn-whatsapp" href="https://wa.me/919288104909?text=Hello%20Galaxy%20Computers%2C%20I%20have%20an%20enquiry" target="_blank" rel="noopener" onclick="gtag('event', 'click_whatsapp', {'event_category': 'Lead', 'event_label': 'Hero WhatsApp'});">
-                            <i class="fa-brands fa-whatsapp"></i> WhatsApp Us
+                        <a class="btn btn-outline" href="#products" style="color:#fff;border-color:rgba(255,255,255,0.35);">
+                            View Products
                         </a>
-                        <a class="btn btn-light" href="#products">
-                            <i class="fa-solid fa-arrow-down"></i> Explore Showroom
+                        <a class="btn btn-primary" href="tel:+919288104909" onclick="gtag('event', 'click_call', {'event_category': 'Lead', 'event_label': 'Hero Call'});">
+                            Call Now
                         </a>
                     </div>
-
                     <div class="hero-note">
-                        100% Genuine Multi-Brand Warranty • Fast Diagnostics • Local After-Sales Support
+                        100% Genuine · Full Warranty · Local Support
                     </div>
                 </div>
 
                 <div class="hero-panel">
-                    <div class="hero-panel-top">
-                        <h3>What are you looking for?</h3>
-                        <span class="open-pill">OPENING SOON</span>
-                    </div>
-
+                    <h3>Categories</h3>
                     <div class="hero-service-grid">
                         <div class="hero-service-item">
                             <i class="fa-solid fa-laptop"></i>
                             <div>
-                                <strong>Laptops & Desktops</strong>
-                                <small>Workstations, Gaming & Productivity</small>
+                                <strong>Laptops & PCs</strong>
+                                <small>Study · Office · Gaming</small>
                             </div>
                         </div>
-
                         <div class="hero-service-item">
                             <i class="fa-solid fa-mobile-screen"></i>
                             <div>
-                                <strong>Smartphones & Tablets</strong>
-                                <small>Next-Gen 5G & Smart Devices</small>
+                                <strong>Smartphones</strong>
+                                <small>Latest 5G</small>
                             </div>
                         </div>
-
                         <div class="hero-service-item">
                             <i class="fa-solid fa-headphones"></i>
                             <div>
-                                <strong>Electronic & Audio Gear</strong>
-                                <small>Headphones, TWS Earbuds & Cables</small>
+                                <strong>Audio</strong>
+                                <small>Headphones & Earbuds</small>
                             </div>
                         </div>
-
                         <div class="hero-service-item">
                             <i class="fa-solid fa-video"></i>
                             <div>
-                                <strong>CCTV Surveillance</strong>
-                                <small>HD Security & Mobile Remote View</small>
+                                <strong>CCTV</strong>
+                                <small>Security Systems</small>
                             </div>
                         </div>
-
                         <div class="hero-service-item">
                             <i class="fa-solid fa-tv"></i>
                             <div>
-                                <strong>Smart 4K LED TVs</strong>
-                                <small>Ultra-HD Cinema & Wall Mount Setup</small>
+                                <strong>Smart TVs</strong>
+                                <small>32" – 65"</small>
                             </div>
                         </div>
-
                         <div class="hero-service-item">
                             <i class="fa-solid fa-network-wired"></i>
                             <div>
-                                <strong>Structured Networking</strong>
-                                <small>High-Speed Fiber, LAN & Mesh Wi-Fi</small>
+                                <strong>Networking</strong>
+                                <small>Wi-Fi & LAN</small>
                             </div>
                         </div>
                     </div>
@@ -936,68 +956,67 @@
 
         <div class="trust-strip">
             <div class="trust-grid">
-                <div class="trust-item"><i class="fa-solid fa-shield-halved"></i> 100% Genuine Products</div>
-                <div class="trust-item"><i class="fa-solid fa-network-wired"></i> Structured Office LAN Setup</div>
-                <div class="trust-item"><i class="fa-solid fa-video"></i> CCTV Camera Deployment</div>
-                <div class="trust-item"><i class="fa-solid fa-screwdriver-wrench"></i> Expert Technical Repair</div>
+                <div class="trust-item"><i class="fa-solid fa-shield-halved"></i> Genuine Products</div>
+                <div class="trust-item"><i class="fa-solid fa-network-wired"></i> Networking Setup</div>
+                <div class="trust-item"><i class="fa-solid fa-video"></i> CCTV Installation</div>
+                <div class="trust-item"><i class="fa-solid fa-screwdriver-wrench"></i> Repair Service</div>
             </div>
         </div>
 
         <div class="brands-section">
-            <div class="brands-title">We Supply, Install & Service Leading Technology Brands</div>
+            <div class="brands-title">Brands We Carry</div>
             <div class="brands-slider">
                 <div class="brand-track">
-                    <div class="brand-item" title="JBL"><span class="brand-badge-text color-jbl">JBL</span></div>
-                    <div class="brand-item" title="boAt"><span class="brand-badge-text color-boat">boAt</span></div>
-                    <div class="brand-item" title="Bose"><span class="brand-badge-text color-bose">BOSE</span></div>
-                    <div class="brand-item" title="Sony"><span class="brand-badge-text color-sony">SONY</span></div>
-                    <div class="brand-item" title="Sennheiser"><span class="brand-badge-text color-sennheiser">SENNHEISER</span></div>
-                    <div class="brand-item" title="Apple"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/apple.svg" alt="Apple" /></div>
-                    <div class="brand-item" title="Samsung"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/samsung.svg" alt="Samsung" /></div>
-                    <div class="brand-item" title="LG"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/lg.svg" alt="LG" /></div>
-                    <div class="brand-item" title="Nothing"><span class="brand-badge-text color-nothing">NOTHING</span></div>
-                    <div class="brand-item" title="Hisense"><span class="brand-badge-text color-hisense">Hisense</span></div>
-                    <div class="brand-item" title="OnePlus"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/oneplus.svg" alt="OnePlus" /></div>
-                    <div class="brand-item" title="Vivo"><span class="brand-badge-text color-vivo">vivo</span></div>
-                    <div class="brand-item" title="Realme"><span class="brand-badge-text color-realme">realme</span></div>
-                    <div class="brand-item" title="Xiaomi"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/xiaomi.svg" alt="Xiaomi" /></div>
-                    <div class="brand-item" title="HP"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/hp.svg" alt="HP" /></div>
-                    <div class="brand-item" title="Dell"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/dell.svg" alt="Dell" /></div>
-                    <div class="brand-item brand-wide" title="Lenovo"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/lenovo.svg" alt="Lenovo" /></div>
-                    <div class="brand-item brand-wide" title="ASUS"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/asus.svg" alt="ASUS" /></div>
-                    <div class="brand-item" title="CP PLUS"><span class="brand-badge-text color-cpplus">CP PLUS</span></div>
-                    <div class="brand-item" title="Hikvision"><span class="brand-badge-text color-hikvision">HIKVISION</span></div>
-                    <div class="brand-item" title="TP-Link"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/tplink.svg" alt="TP-Link" /></div>
-                    <div class="brand-item" title="D-Link"><span class="brand-badge-text color-dlink">D-Link</span></div>
-                    <div class="brand-item" title="Netgear"><span class="brand-badge-text color-netgear">NETGEAR</span></div>
-                    <div class="brand-item" title="Cisco"><span class="brand-badge-text color-cisco">CISCO</span></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/jbl.svg" alt="JBL" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/boat.svg" alt="boAt" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/bose.svg" alt="Bose" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/sony.svg" alt="Sony" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/sennheiser.svg" alt="Sennheiser" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/apple.svg" alt="Apple" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/samsung.svg" alt="Samsung" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/lg.svg" alt="LG" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Nothing.svg" alt="Nothing" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Hisense.svg" alt="Hisense" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/oneplus.svg" alt="OnePlus" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/vivo.svg" alt="vivo" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Realme_logo.svg" alt="realme" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/xiaomi.svg" alt="Xiaomi" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/hp.svg" alt="HP" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/dell.svg" alt="Dell" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/lenovo.svg" alt="Lenovo" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/asus.svg" alt="ASUS" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cpplusworld.com/prodassets/corporatelogo/CP_PLUS.webp" alt="CP PLUS" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Hikvision_logo.svg" alt="Hikvision" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/tplink.svg" alt="TP-Link" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://upload.wikimedia.org/wikipedia/commons/4/45/D-Link_wordmark.svg" alt="D-Link" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/netgear.svg" alt="NETGEAR" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/cisco.svg" alt="Cisco" loading="lazy"></div>
                 </div>
-
                 <div class="brand-track" aria-hidden="true">
-                    <div class="brand-item" title="JBL"><span class="brand-badge-text color-jbl">JBL</span></div>
-                    <div class="brand-item" title="boAt"><span class="brand-badge-text color-boat">boAt</span></div>
-                    <div class="brand-item" title="Bose"><span class="brand-badge-text color-bose">BOSE</span></div>
-                    <div class="brand-item" title="Sony"><span class="brand-badge-text color-sony">SONY</span></div>
-                    <div class="brand-item" title="Sennheiser"><span class="brand-badge-text color-sennheiser">SENNHEISER</span></div>
-                    <div class="brand-item" title="Apple"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/apple.svg" alt="Apple" /></div>
-                    <div class="brand-item" title="Samsung"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/samsung.svg" alt="Samsung" /></div>
-                    <div class="brand-item" title="LG"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/lg.svg" alt="LG" /></div>
-                    <div class="brand-item" title="Nothing"><span class="brand-badge-text color-nothing">NOTHING</span></div>
-                    <div class="brand-item" title="Hisense"><span class="brand-badge-text color-hisense">Hisense</span></div>
-                    <div class="brand-item" title="OnePlus"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/oneplus.svg" alt="OnePlus" /></div>
-                    <div class="brand-item" title="Vivo"><span class="brand-badge-text color-vivo">vivo</span></div>
-                    <div class="brand-item" title="Realme"><span class="brand-badge-text color-realme">realme</span></div>
-                    <div class="brand-item" title="Xiaomi"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/xiaomi.svg" alt="Xiaomi" /></div>
-                    <div class="brand-item" title="HP"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/hp.svg" alt="HP" /></div>
-                    <div class="brand-item" title="Dell"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/dell.svg" alt="Dell" /></div>
-                    <div class="brand-item brand-wide" title="Lenovo"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/lenovo.svg" alt="Lenovo" /></div>
-                    <div class="brand-item brand-wide" title="ASUS"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/asus.svg" alt="ASUS" /></div>
-                    <div class="brand-item" title="CP PLUS"><span class="brand-badge-text color-cpplus">CP PLUS</span></div>
-                    <div class="brand-item" title="Hikvision"><span class="brand-badge-text color-hikvision">HIKVISION</span></div>
-                    <div class="brand-item" title="TP-Link"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/tplink.svg" alt="TP-Link" /></div>
-                    <div class="brand-item" title="D-Link"><span class="brand-badge-text color-dlink">D-Link</span></div>
-                    <div class="brand-item" title="Netgear"><span class="brand-badge-text color-netgear">NETGEAR</span></div>
-                    <div class="brand-item" title="Cisco"><span class="brand-badge-text color-cisco">CISCO</span></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/jbl.svg" alt="JBL" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/boat.svg" alt="boAt" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/bose.svg" alt="Bose" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/sony.svg" alt="Sony" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/sennheiser.svg" alt="Sennheiser" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/apple.svg" alt="Apple" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/samsung.svg" alt="Samsung" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/lg.svg" alt="LG" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Nothing.svg" alt="Nothing" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Hisense.svg" alt="Hisense" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/oneplus.svg" alt="OnePlus" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/vivo.svg" alt="vivo" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Realme_logo.svg" alt="realme" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/xiaomi.svg" alt="Xiaomi" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/hp.svg" alt="HP" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/dell.svg" alt="Dell" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/lenovo.svg" alt="Lenovo" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/asus.svg" alt="ASUS" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cpplusworld.com/prodassets/corporatelogo/CP_PLUS.webp" alt="CP PLUS" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Hikvision_logo.svg" alt="Hikvision" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/tplink.svg" alt="TP-Link" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://upload.wikimedia.org/wikipedia/commons/4/45/D-Link_wordmark.svg" alt="D-Link" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/netgear.svg" alt="NETGEAR" loading="lazy"></div>
+                    <div class="brand-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/cisco.svg" alt="Cisco" loading="lazy"></div>
                 </div>
             </div>
         </div>
@@ -1005,46 +1024,41 @@
         <section id="products">
             <div class="container">
                 <div class="section-heading">
-                    <div class="label">Showroom Offerings</div>
-                    <h2>Everything You Need Under One Roof</h2>
-                    <p>Complete technology range for personal computing, premium audio, smart home entertainment, and commercial infrastructure.</p>
+                    <div class="label">Products</div>
+                    <h2>Everything under one roof</h2>
+                    <p>Genuine products with local support.</p>
                 </div>
 
                 <div class="cards-6">
                     <article class="card">
                         <div class="card-icon"><i class="fa-solid fa-laptop"></i></div>
                         <h3>Laptops & Desktops</h3>
-                        <p>HP, Dell, Lenovo, ASUS & Apple MacBook. Student notebooks, business workstations, and custom liquid-cooled gaming PCs.</p>
+                        <p>HP, Dell, Lenovo, ASUS and Apple for study, work and gaming.</p>
                     </article>
-
                     <article class="card">
                         <div class="card-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
-                        <h3>Smartphones & Tablets</h3>
-                        <p>Latest 5G smartphones from Nothing, OnePlus, Samsung, Vivo & Realme with fast chargers, wireless audio, and protection.</p>
+                        <h3>Smartphones</h3>
+                        <p>Latest 5G phones from Samsung, OnePlus, Nothing, Vivo and Realme.</p>
                     </article>
-
                     <article class="card">
                         <div class="card-icon"><i class="fa-solid fa-headphones"></i></div>
-                        <h3>Electronic & Audio Gear</h3>
-                        <p>Premium wireless headphones & TWS earbuds from JBL, boAt, Bose, Sony, Sennheiser, mechanical keyboards, mice & power banks.</p>
+                        <h3>Audio & Accessories</h3>
+                        <p>JBL, boAt, Bose, Sony headphones, earbuds and more.</p>
                     </article>
-
                     <article class="card">
                         <div class="card-icon"><i class="fa-solid fa-video"></i></div>
-                        <h3>CCTV Surveillance & Security</h3>
-                        <p>CP PLUS & Hikvision HD/IP camera installation, DVR/NVR multi-channel setups, color night-vision & smartphone live monitoring.</p>
+                        <h3>CCTV & Security</h3>
+                        <p>CP PLUS and Hikvision systems with mobile viewing.</p>
                     </article>
-
                     <article class="card">
                         <div class="card-icon"><i class="fa-solid fa-tv"></i></div>
-                        <h3>Smart 4K LED TVs</h3>
-                        <p>Sony Bravia, Samsung, LG, Hisense & Mi Smart TVs (32" to 65") with precision wall mounting, soundbar integration & app setups.</p>
+                        <h3>Smart TVs</h3>
+                        <p>Sony, Samsung, LG and Hisense 4K TVs (32"–65").</p>
                     </article>
-
                     <article class="card">
                         <div class="card-icon"><i class="fa-solid fa-network-wired"></i></div>
-                        <h3>Structured Networking & Wi-Fi</h3>
-                        <p>CAT6 & Fiber optic LAN cabling, Wi-Fi 6 mesh deployments, Gigabit switches, server racks, and turnkey office network setups.</p>
+                        <h3>Networking</h3>
+                        <p>Wi-Fi mesh, fiber and LAN for home and office.</p>
                     </article>
                 </div>
             </div>
@@ -1053,68 +1067,53 @@
         <section id="services">
             <div class="container">
                 <div class="section-heading">
-                    <div class="label">Showroom Services</div>
-                    <h2>Networking, Upgrades & Technical Repair</h2>
-                    <p>Comprehensive setup and hardware maintenance for offices, shops, schools, and homes.</p>
+                    <div class="label">Services</div>
+                    <h2>Installation & Support</h2>
+                    <p>We install and maintain what we sell.</p>
                 </div>
 
                 <div class="service-layout">
                     <div class="service-highlight">
-                        <h3>Commercial Networking & CCTV Setup</h3>
-                        <p>
-                            Planning a new office, coaching institute, shop, or home network in Jehanabad? 
-                            Galaxy Computers provides complete turnkey infrastructure setup.
-                        </p>
-
+                        <h3>Networking & CCTV</h3>
+                        <p>Complete setup for offices, shops and homes.</p>
                         <div class="check-list">
-                            <div><i class="fa-solid fa-check"></i> Office LAN & structured CAT6 / Fiber cabling</div>
-                            <div><i class="fa-solid fa-check"></i> Multi-floor Wi-Fi Mesh & high-gain router configuration</div>
-                            <div><i class="fa-solid fa-check"></i> Server rack, patch panel & Gigabit switch installation</div>
-                            <div><i class="fa-solid fa-check"></i> HD/IP CCTV camera deployment with mobile app viewing</div>
-                            <div><i class="fa-solid fa-check"></i> Instant NVMe SSD & RAM speed upgrade service</div>
+                            <div><i class="fa-solid fa-check"></i> Structured LAN & fiber</div>
+                            <div><i class="fa-solid fa-check"></i> Wi-Fi mesh systems</div>
+                            <div><i class="fa-solid fa-check"></i> CCTV with mobile viewing</div>
+                            <div><i class="fa-solid fa-check"></i> SSD & RAM upgrades</div>
                         </div>
-
-                        <br />
-                        <a class="btn btn-whatsapp" href="https://wa.me/919288104909?text=Hello%20Galaxy%20Computers%2C%20I%20need%20networking%20or%20CCTV%20setup%20enquiry" target="_blank" rel="noopener" onclick="gtag('event', 'click_whatsapp', {'event_category': 'Lead', 'event_label': 'Services Section WhatsApp'});">
-                            <i class="fa-brands fa-whatsapp"></i> Enquire About Networking / CCTV
-                        </a>
                     </div>
 
                     <div class="service-list">
                         <article class="service-item">
                             <i class="fa-solid fa-network-wired"></i>
-                            <h4>Office LAN & Wi-Fi Setup</h4>
-                            <p>Seamless connectivity with structured cabling, routers, switches, and load balancing.</p>
+                            <h4>Wi-Fi & LAN Setup</h4>
+                            <p>Reliable networking for home and office.</p>
                         </article>
-
                         <article class="service-item">
                             <i class="fa-solid fa-video"></i>
-                            <h4>CCTV Installation & Repair</h4>
-                            <p>Camera placement, DVR hard disk replacement, wiring repairs, and remote phone view setup.</p>
+                            <h4>CCTV Installation</h4>
+                            <p>Professional camera placement and configuration.</p>
                         </article>
-
                         <article class="service-item">
                             <i class="fa-solid fa-memory"></i>
-                            <h4>SSD & RAM Boost (10x Faster)</h4>
-                            <p>Upgrade sluggish laptops and desktops with high-speed NVMe SSDs and dual-channel RAM.</p>
+                            <h4>SSD & RAM Upgrade</h4>
+                            <p>Make older systems significantly faster.</p>
                         </article>
-
                         <article class="service-item">
                             <i class="fa-solid fa-laptop-medical"></i>
-                            <h4>Chip-Level Motherboard Repair</h4>
-                            <p>Diagnostic solutions for dead laptops, charging issues, screen flickering, and liquid damage.</p>
+                            <h4>Laptop Repair</h4>
+                            <p>Diagnostics and chip-level repair.</p>
                         </article>
-
                         <article class="service-item">
                             <i class="fa-solid fa-tv"></i>
-                            <h4>Smart TV Fitting & Audio</h4>
-                            <p>Precision wall bracket mounting, soundbar wiring, and Android/Google TV app configuration.</p>
+                            <h4>TV Installation</h4>
+                            <p>Clean wall mounting and setup.</p>
                         </article>
-
                         <article class="service-item">
                             <i class="fa-solid fa-mobile-screen"></i>
-                            <h4>Mobile Display & Battery</h4>
-                            <p>Original glass/folder replacement, charging socket repair, and genuine parts.</p>
+                            <h4>Mobile Repair</h4>
+                            <p>Display, battery and charging issues.</p>
                         </article>
                     </div>
                 </div>
@@ -1122,14 +1121,12 @@
         </section>
 
         <section>
-            <div class="container">
+            <div class="container" style="padding-top:0;">
                 <div class="gallery-placeholder">
                     <div>
                         <i class="fa-solid fa-store"></i>
-                        <h3>Our Showroom — Opening Soon</h3>
-                        <p>
-                            Real showroom photos, inventory displays, and live product demo counters will be updated right here upon store inauguration on Fida Hussain Road.
-                        </p>
+                        <h3>Showroom Coming Soon</h3>
+                        <p>Photos will be added after inauguration on Fida Hussain Road, Jehanabad.</p>
                     </div>
                 </div>
             </div>
@@ -1138,46 +1135,40 @@
         <section id="why-us">
             <div class="container">
                 <div class="section-heading">
-                    <div class="label">Why Galaxy Computers</div>
-                    <h2>Your Trusted IT & Security Partner in Jehanabad</h2>
-                    <p>Genuine multi-brand hardware, verified warranties, and dependable local after-sales service.</p>
+                    <div class="label">Why Us</div>
+                    <h2>Local. Reliable. Genuine.</h2>
                 </div>
 
                 <div class="why-grid">
                     <article class="why-card">
                         <i class="fa-solid fa-shield-halved"></i>
-                        <strong>100% Genuine Hardware</strong>
-                        <p>Direct sourcing from authorized distributors with full brand warranty support.</p>
+                        <strong>Genuine Products</strong>
+                        <p>Authorized brands with full warranty.</p>
                     </article>
-
                     <article class="why-card">
                         <i class="fa-solid fa-network-wired"></i>
-                        <strong>Complete IT & Network Infrastructure</strong>
-                        <p>From single laptops to multi-PC network labs, we handle hardware, cabling & configuration.</p>
+                        <strong>Complete Setup</strong>
+                        <p>We install and configure everything.</p>
                     </article>
-
                     <article class="why-card">
                         <i class="fa-solid fa-screwdriver-wrench"></i>
-                        <strong>Same-Day Diagnostic & Upgrades</strong>
-                        <p>Instant SSD/RAM upgrades and rapid hardware troubleshooting without weeks of turnaround.</p>
+                        <strong>Fast Service</strong>
+                        <p>Most upgrades and repairs done quickly.</p>
                     </article>
-
                     <article class="why-card">
                         <i class="fa-solid fa-video"></i>
-                        <strong>On-Site CCTV & TV Installation</strong>
-                        <p>Professional doorstep technician visits for cabling, wall mounting, and configuration.</p>
+                        <strong>On-Site Work</strong>
+                        <p>Installation at your home or office.</p>
                     </article>
-
                     <article class="why-card">
                         <i class="fa-solid fa-tags"></i>
-                        <strong>Honest, Transparent Pricing</strong>
-                        <p>Get recommendations tailored to your performance requirements rather than overpriced specs.</p>
+                        <strong>Honest Advice</strong>
+                        <p>Only what you actually need.</p>
                     </article>
-
                     <article class="why-card">
                         <i class="fa-solid fa-location-dot"></i>
-                        <strong>Prime Jehanabad Location</strong>
-                        <p>Easily accessible showroom on Fida Hussain Road for product purchases and repairs.</p>
+                        <strong>Local Presence</strong>
+                        <p>Fida Hussain Road, Jehanabad.</p>
                     </article>
                 </div>
             </div>
@@ -1187,15 +1178,19 @@
             <div class="container" style="padding-top:0;">
                 <div class="cta">
                     <div>
-                        <h2>Need a custom quote for Office Setup or Bulk Order?</h2>
-                        <p>Send your requirements for Laptops, Mobiles, Audio Gear, CCTV, TVs, or Networking on WhatsApp for instant pricing.</p>
+                        <h2>Get a quote</h2>
+                        <p>For products, office setup or bulk orders.</p>
                     </div>
                     <div class="cta-actions">
-                        <a class="btn btn-whatsapp" href="https://wa.me/919288104909?text=Hello%20Galaxy%20Computers%2C%20I%20need%20a%20quote%20for%20products%2Fnetworking" target="_blank" rel="noopener" onclick="gtag('event', 'click_whatsapp', {'event_category': 'Lead', 'event_label': 'CTA Banner WhatsApp'});">
-                            <i class="fa-brands fa-whatsapp"></i> Get WhatsApp Quote
+                        <a class="btn btn-whatsapp" 
+                           href="https://wa.me/919288104909?text=Hi%20Galaxy%20Computers%2C%20I%20would%20like%20to%20enquire%20about%20your%20products%20and%20services." 
+                           target="_blank" 
+                           rel="noopener"
+                           onclick="gtag('event', 'click_whatsapp', {'event_category': 'Lead', 'event_label': 'Main WhatsApp'});">
+                            <i class="fa-brands fa-whatsapp"></i> WhatsApp
                         </a>
-                        <a class="btn btn-primary" href="tel:+919288104909" onclick="gtag('event', 'click_call', {'event_category': 'Lead', 'event_label': 'CTA Banner Call'});">
-                            <i class="fa-solid fa-phone"></i> 9288104909
+                        <a class="btn btn-primary" href="tel:+919288104909" onclick="gtag('event', 'click_call', {'event_category': 'Lead', 'event_label': 'CTA Call'});">
+                            Call 9288104909
                         </a>
                     </div>
                 </div>
@@ -1205,9 +1200,8 @@
         <section id="contact">
             <div class="container">
                 <div class="section-heading">
-                    <div class="label">Visit Us</div>
-                    <h2>Showroom Location & Contact</h2>
-                    <p>We look forward to welcoming you to Galaxy Computers in Jehanabad.</p>
+                    <div class="label">Contact</div>
+                    <h2>Visit or reach us</h2>
                 </div>
 
                 <div class="contact">
@@ -1217,24 +1211,30 @@
                         <div class="contact-row">
                             <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
                             <div>
-                                <strong>Showroom Address</strong>
-                                <span>Fida Hussain Road, Jehanabad, Bihar - 804408</span>
+                                <strong>Address</strong>
+                                <a class="address-link" 
+                                   href="https://maps.app.goo.gl/JouzmVf43T926CoW6" 
+                                   target="_blank" 
+                                   rel="noopener"
+                                   onclick="gtag('event', 'click_maps', {'event_category': 'Location'});">
+                                    Fida Hussain Road, Jehanabad, Bihar 804408
+                                </a>
                             </div>
                         </div>
 
                         <div class="contact-row">
                             <div class="contact-icon"><i class="fa-solid fa-clock"></i></div>
                             <div>
-                                <strong>Business Hours</strong>
-                                <span>Mon – Sun: 08:00 AM – 09:00 PM</span>
+                                <strong>Hours</strong>
+                                <span>Mon – Sun · 8:00 AM – 9:00 PM</span>
                             </div>
                         </div>
 
                         <div class="contact-row">
                             <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
                             <div>
-                                <strong>Call Us</strong>
-                                <a href="tel:+919288104909" onclick="gtag('event', 'click_call', {'event_category': 'Lead', 'event_label': 'Contact Card Phone'});">+91 92881 04909</a>
+                                <strong>Phone</strong>
+                                <a href="tel:+919288104909" onclick="gtag('event', 'click_call', {'event_category': 'Lead', 'event_label': 'Contact Phone'});">+91 92881 04909</a>
                             </div>
                         </div>
 
@@ -1246,17 +1246,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="map-card">
-                        <div>
-                            <i class="fa-solid fa-map-location-dot"></i>
-                            <h3>Find Our Showroom</h3>
-                            <p>Fida Hussain Road, Jehanabad, Bihar - 804408</p>
-                            <a class="btn btn-light" href="https://maps.app.goo.gl/JouzmVf43T926CoW6" target="_blank" rel="noopener" onclick="gtag('event', 'click_maps', {'event_category': 'Location'});">
-                                <i class="fa-solid fa-location-arrow"></i> Open Location in Google Maps
-                            </a>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
@@ -1264,10 +1253,14 @@
     </main>
 
     <div class="mobile-bar">
-        <a class="mobile-call" href="tel:+919288104909" onclick="gtag('event', 'click_call', {'event_category': 'Lead', 'event_label': 'Mobile Sticky Call'});">
-            <i class="fa-solid fa-phone"></i> Call Now
+        <a class="mobile-call" href="tel:+919288104909" onclick="gtag('event', 'click_call', {'event_category': 'Lead', 'event_label': 'Mobile Call'});">
+            <i class="fa-solid fa-phone"></i> Call
         </a>
-        <a class="mobile-wa" href="https://wa.me/919288104909?text=Hello%20Galaxy%20Computers%2C%20I%20have%20an%20enquiry" target="_blank" rel="noopener" onclick="gtag('event', 'click_whatsapp', {'event_category': 'Lead', 'event_label': 'Mobile Sticky WhatsApp'});">
+        <a class="mobile-wa" 
+           href="https://wa.me/919288104909?text=Hi%20Galaxy%20Computers%2C%20I%20would%20like%20to%20enquire%20about%20your%20products%20and%20services." 
+           target="_blank" 
+           rel="noopener"
+           onclick="gtag('event', 'click_whatsapp', {'event_category': 'Lead', 'event_label': 'Mobile WhatsApp'});">
             <i class="fa-brands fa-whatsapp"></i> WhatsApp
         </a>
     </div>
@@ -1276,11 +1269,15 @@
         <div class="footer-inner">
             <div>
                 <div class="footer-brand">Galaxy Computers</div>
-                <p>Multi-brand Laptops, Mobiles, Audio Gear, CCTV Surveillance, Smart TVs & Office Networking in Jehanabad.</p>
+                <p>Laptops · Mobiles · CCTV · Networking · Jehanabad</p>
             </div>
-            <p>© 2026 Galaxy Computers. All Rights Reserved.</p>
+            <p>© <span id="year"></span> Galaxy Computers</p>
         </div>
     </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 
 </body>
 </html>
